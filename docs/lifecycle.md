@@ -88,15 +88,50 @@ Each stage is anchored to the external standards it draws on. The connectedness
 between stages and standards — rather than any single stage — is the
 contribution.
 
-| Lifecycle stage | Anchoring standards |
-|---|---|
-| Impact Assessment | AI impact assessment and DPIA methodologies; ISO/IEC 42005 |
-| Risk Assessment / Management | ISO 31000; ISO/IEC 23894; NIST AI RMF |
-| Admissibility Gate | Decision-gate and change-advisory logic; organisation-defined criteria |
-| Controls | ISO/IEC 27002; Essential Eight; NIST SP 800-53 |
-| Assurance | ISO/IEC 42006; IRAP-type assessment; SOC 2-style attestation |
-| Audit / Review | ISO 19011; internal audit standards |
-| Whole-of-cycle management | ISO/IEC 42001; ISO/IEC 23053 |
+| Lifecycle stage | Anchoring standards | Legal status |
+|---|---|---|
+| Impact Assessment | AI impact assessment and DPIA methodologies; ISO/IEC 42005 | Voluntary |
+| Risk Assessment / Management | ISO 31000; ISO/IEC 23894; NIST AI RMF | Voluntary |
+| Admissibility Gate | Decision-gate and change-advisory logic; organisation-defined criteria | Voluntary |
+| Controls | ISO/IEC 27002; Essential Eight; NIST SP 800-53 | Voluntary; Essential Eight mandatory for some Australian Commonwealth entities |
+| Assurance | ISO/IEC 42006; IRAP-type assessment; SOC 2-style attestation | Voluntary |
+| Audit / Review | ISO 19011; internal audit standards | Voluntary |
+| Whole-of-cycle management | ISO/IEC 42001; ISO/IEC 23053 | Voluntary |
+
+### Voluntary standards and harmonised standards are not the same thing
+
+Every standard above is voluntary: conforming to it is evidence of good practice,
+not evidence of compliance with any law. That distinction matters under the EU AI
+Act, where a separate category exists.
+
+A **harmonised standard** is developed by a European standardisation organisation
+under a Commission request, and once published *and* cited in the Official
+Journal it confers a rebuttable presumption of conformity with the corresponding
+legal requirements. CEN-CENELEC JTC 21 is developing such standards for the AI
+Act, targeting Chapter III Section 2 — Articles 9 to 15 for high-risk systems —
+and Article 17 on quality management systems.
+
+None is yet available for that purpose. As at August 2026, seven projects are in
+train: two in drafting, four at working or committee draft, one at enquiry, one
+at formal vote. **None has been published, and none has been cited in the
+Official Journal.** Publication and citation are separate steps, and citation is
+at the Commission's discretion.
+
+So there is presently no standard that delivers presumption of conformity with
+the AI Act. Draft standards indicate the direction of regulatory expectation and
+are useful for that; they do not discharge a legal obligation, and a mapping that
+did not say so would mislead.
+
+This is the same distinction the obligation register draws with `contingent_on`:
+a thing that is not yet what it will become should be recorded as such rather
+than anticipated. A future revision of this table will need a third status —
+*cited in the OJEU* — and the entries that reach it will change category, not
+merely progress.
+
+Status information above is drawn from the independent CEN-CENELEC mapping
+maintained by Adam Leon Smith at https://ai-act-standards.com/ (CC BY 4.0),
+which is not an official publication of the European institutions or the
+European standardisation organisations. Verify current stages at source.
 
 Designations and scope are cited. No standard's text, clauses or control wording
 is reproduced anywhere in this repository, and the project carries no affiliation
