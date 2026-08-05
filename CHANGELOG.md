@@ -46,7 +46,9 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   agreed.
 - Added `contingent_on` for duties agreed but not yet law, with a CONTINGENT
   coverage finding.
-
-### Notes
+- Standards mapping now records legal status, and distinguishes voluntary
+  standards from harmonised standards under the EU AI Act. As at August 2026 no
+  CEN-CENELEC AI Act standard has been published or cited in the Official
+  Journal, so none yet confers presumption of conformity.
 - The rubric anchors are published as provisional and may change before v1.0.
   The tier rules and schema contracts are stable.
