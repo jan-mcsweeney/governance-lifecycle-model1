@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/model1/schema/assessment-output.schema.json",
+  "title": "Model 1 — scored governance assessment (output)",
+  "description": "The engine's assessment of a single issue: five scored dimensions, a priority tier and a next action.",
+  "type": "object",
+  "required": [
+    "evidence_strength",
+    "chronology_clarity",
+    "governance_relevance",
+    "operational_impact",
+    "actionability",
+    "priority_tier",
+    "next_action"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "score": {
+      "type": "string",
+      "enum": ["Low", "Low–Moderate", "Moderate", "Moderate–High", "High"],
+      "description": "Ordinal scale. Compound values are permitted where the rubric genuinely straddles two anchors; they are treated as the lower value for tier derivation."
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Identifier of the issue assessed, where the input carried one."
+    },
+    "evidence_strength": {
+      "$ref": "#/$defs/score",
+      "description": "How directly and how well corroborated the evidence is. Low: inference from secondary material. Moderate: direct but partial or single-source. High: direct, corroborated, method documented."
+    },
+    "chronology_clarity": {
+      "$ref": "#/$defs/score",
+      "description": "How clearly the sequence is established. Low: periods unclear or contested. Moderate: sequence known, some gaps. High: dated sequence established end to end."
+    },
+    "governance_relevance": {
+      "$ref": "#/$defs/score",
+      "description": "Bearing on transparency, assurance and accountability. Low: peripheral. Moderate: bears on one control objective. High: goes directly to transparency, assurance or accountability."
+    },
+    "operational_impact": {
+      "$ref": "#/$defs/score",
+      "description": "Consequence for auditability and assurance posture. Low: no effect. Moderate: affects confidence in one domain. High: affects auditability or assurance maturity broadly."
+    },
+    "actionability": {
+      "$ref": "#/$defs/score",
+      "description": "Whether the issue can be acted on. Low: no owner, no lever, no forum. Moderate: reviewable, remedy unclear. High: clear owner, clear next step, defined forum. Scored independently of the other four."
+    },
+    "priority_tier": {
+      "type": "string",
+      "enum": [
+        "Tier 0 — no issue",
+        "Tier 1 — priority",
+        "Tier 2 — contextual / supporting",
+        "Tier 3 — monitor"
+      ],
+      "description": "Derived from the scores by the tier rules; not assigned directly."
+    },
+    "next_action": {
+      "type": "string",
+      "minLength": 10,
+      "description": "The specific next step, naming a forum or owner where one exists."
+    },
+    "rationale": {
+      "type": "string",
+      "description": "Optional note on why the tier fell where it did, particularly where a compound score decided it."
+    }
+  }
+}

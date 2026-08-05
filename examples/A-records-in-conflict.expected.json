@@ -1,0 +1,11 @@
+{
+  "id": "A",
+  "evidence_strength": "High",
+  "chronology_clarity": "Low",
+  "governance_relevance": "High",
+  "operational_impact": "High",
+  "actionability": "High",
+  "priority_tier": "Tier 1 — priority",
+  "next_action": "Reconcile both record sets against payment records; refer to the contract manager.",
+  "rationale": "Evidence and chronology are independent axes: the records are held, the sequence is not established."
+}

@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------
+# Working files. Nothing in these paths is intended for publication.
+# ---------------------------------------------------------------
+private/
+working/
+*.private.*
+*-real.*
+*-live.*
+
+# Office and export artefacts
+~$*
+*.tmp
+*.bak
+*.docx
+*.xlsx
+*.pdf
+!docs/**/*.pdf
+
+# Environments and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

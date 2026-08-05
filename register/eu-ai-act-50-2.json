@@ -1,0 +1,81 @@
+{
+  "id": "eu-ai-act-50-2",
+  "instrument": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "provision": "Article 50(2)",
+  "jurisdiction": "European Union; extraterritorial as for 50(1)",
+  "bearer": "provider",
+  "applies_from": "2026-08-02",
+  "status": "transitional",
+  "summary": "Providers of systems generating synthetic audio, image, video or text must ensure the outputs are marked in a machine-readable form and detectable as artificially generated or manipulated, using technical means that are effective, interoperable and robust so far as technically feasible.",
+  "decomposition": {
+    "gate_criteria": [
+      {
+        "criterion": "Is a marking mechanism applied to every output channel, including exports, APIs and downstream integrations?",
+        "failure_outcome": "NO-GO"
+      },
+      {
+        "criterion": "Has the marking been tested for survival through the transformations outputs actually undergo — re-encoding, cropping, copy-paste, format conversion?",
+        "failure_outcome": "CONDITIONAL GO"
+      }
+    ],
+    "controls": [
+      {
+        "control": "Machine-readable marking applied at generation, not at publication",
+        "type": "technical"
+      },
+      {
+        "control": "Detection verification in the release pipeline",
+        "type": "technical"
+      },
+      {
+        "control": "Marking scheme documented and version-controlled, with the scheme's own version recorded in the mark",
+        "type": "design"
+      },
+      {
+        "control": "Contractual requirement that integrators do not strip marking",
+        "type": "contractual"
+      }
+    ],
+    "evidence_types": [
+      {
+        "record": "Specification of the marking scheme, versioned",
+        "generated_at": "design",
+        "retention": "life of system"
+      },
+      {
+        "record": "Pipeline test results demonstrating detectability per release",
+        "generated_at": "execution",
+        "retention": "per release records schedule"
+      },
+      {
+        "record": "Robustness test results against the transformation set",
+        "generated_at": "periodic",
+        "retention": "rolling, minimum one review cycle"
+      }
+    ],
+    "assurance_activities": [
+      "Independent detection test on a sample of production outputs",
+      "Review of the transformation set for currency against how outputs are actually used"
+    ]
+  },
+  "related_standards": [
+    "ISO/IEC 42001",
+    "ISO/IEC 23053"
+  ],
+  "source": "Regulation (EU) 2024/1689 as amended by Regulation (EU) 2026/1744 (ELI: https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng); European Commission Code of Practice on Transparency of AI-generated Content.",
+  "review_date": "2026-11-15",
+  "notes": "Transitional, and the transition is now enacted rather than agreed. Under Regulation (EU) 2026/1744 of 8 July 2026 (Digital Omnibus on AI), in force 27 July 2026, amending Regulation (EU) 2024/1689, providers of systems placed on the market before 2 August 2026 that generate synthetic audio, image, video or text have until 2 December 2026 to meet the Article 50(2) marking obligation. Systems placed on the market on or after that date had no transitional period. Determine which limb applies before relying on the later date: the application date turns on a property of the system rather than of the duty, which the schema cannot yet express and which is therefore recorded here. Note the entry's own history — it was written while the Omnibus was a political agreement and had to be corrected once the amending regulation was published. That is the review_date field doing its work.",
+  "depends_on": [
+    {
+      "entry_id": "pqc-transition-hndl",
+      "nature": "mitigation gated by",
+      "note": "Machine-readable marking that relies on digital signatures for provenance inherits the shelf life of the signing algorithm. Where marked content is expected to remain verifiable for longer than the signing cryptography remains sound, the marking obligation cannot be discharged durably ahead of the cryptographic migration — and in hardware-held signing keys, not faster than the hardware refresh cycle permits."
+    }
+  ],
+  "contingent_on": {
+    "condition": "Publication of the amending regulation in the Official Journal of the European Union",
+    "expected_by": "2026-08-02",
+    "resolved": true,
+    "resolved_by": "Regulation (EU) 2026/1744 of 8 July 2026, in force 27 July 2026 (ELI: https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng)"
+  }
+}

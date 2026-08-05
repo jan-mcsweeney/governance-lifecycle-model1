@@ -1,0 +1,11 @@
+{
+  "id": "C",
+  "evidence_strength": "High",
+  "chronology_clarity": "High",
+  "governance_relevance": "High",
+  "operational_impact": "Moderate",
+  "actionability": "Low",
+  "priority_tier": "Tier 2 — contextual / supporting",
+  "next_action": "Carry to the maturity assessment; propose owner assignment at the next committee cycle.",
+  "rationale": "Fully documented and entirely inert. Does not reach Tier 1 because there is no lever."
+}

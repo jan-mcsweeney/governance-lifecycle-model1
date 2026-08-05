@@ -1,0 +1,78 @@
+{
+  "id": "eu-ai-act-50-1",
+  "instrument": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "provision": "Article 50(1)",
+  "jurisdiction": "European Union; reaches providers established outside the EU whose systems are used by persons in the EU",
+  "bearer": "provider",
+  "applies_from": "2026-08-02",
+  "status": "in force",
+  "summary": "A system intended to interact directly with people must be designed so that those people are aware they are dealing with an AI system rather than a human, unless that is already obvious to a reasonably observant person in the circumstances. The information must reach the person at the point of first interaction.",
+  "decomposition": {
+    "gate_criteria": [
+      {
+        "criterion": "Does this system interact directly with natural persons, and if so, is the disclosure present in the interaction path that will actually be released?",
+        "failure_outcome": "NO-GO"
+      },
+      {
+        "criterion": "Is the disclosure legible at first interaction rather than reachable only through help text, terms or a settings menu?",
+        "failure_outcome": "NO-GO"
+      },
+      {
+        "criterion": "Where reliance is placed on the obviousness exception, has that judgement been recorded with reasons?",
+        "failure_outcome": "CONDITIONAL GO"
+      }
+    ],
+    "controls": [
+      {
+        "control": "Disclosure rendered in the interface at the opening of every interaction path, including non-default entry points",
+        "type": "design"
+      },
+      {
+        "control": "Accessibility of the disclosure itself — it must survive screen readers, reduced motion and text-only rendering",
+        "type": "design"
+      },
+      {
+        "control": "Release checklist item preventing deployment of a new interaction path without disclosure review",
+        "type": "procedural"
+      },
+      {
+        "control": "Flow-down of the requirement to any third party embedding or reselling the system",
+        "type": "contractual"
+      }
+    ],
+    "evidence_types": [
+      {
+        "record": "Design artefact showing the disclosure in each interaction path, versioned",
+        "generated_at": "design",
+        "retention": "life of system plus applicable limitation period"
+      },
+      {
+        "record": "Release approval recording that disclosure review was completed",
+        "generated_at": "execution",
+        "retention": "per release records schedule"
+      },
+      {
+        "record": "Recorded reasons where the obviousness exception was relied on",
+        "generated_at": "design",
+        "retention": "life of system"
+      },
+      {
+        "record": "Periodic rendering check across supported clients and assistive technologies",
+        "generated_at": "periodic",
+        "retention": "rolling, minimum one full review cycle"
+      }
+    ],
+    "assurance_activities": [
+      "Independent walkthrough of each interaction path against the recorded design artefact",
+      "Sampling of releases to confirm the checklist item was applied and not waived",
+      "Review of obviousness-exception decisions for consistency"
+    ]
+  },
+  "related_standards": [
+    "ISO/IEC 42001",
+    "WCAG 2.2"
+  ],
+  "source": "Regulation (EU) 2024/1689 as amended by Regulation (EU) 2026/1744 (ELI: https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng); European Commission guidelines on the Article 50 transparency obligations, adopted July 2026.",
+  "review_date": "2027-02-01",
+  "notes": "Open-source licensing is not an exemption from Article 50. Note that the duty is on design, so it is discharged before execution — which is why it belongs at the admissibility gate rather than in downstream evidence. Unaffected by the Omnibus amendments: the disclosure duty applies from 2 August 2026 with no transitional period."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "E",
+  "evidence_strength": "Low–Moderate",
+  "chronology_clarity": "Moderate",
+  "governance_relevance": "Moderate",
+  "operational_impact": "Moderate",
+  "actionability": "Moderate",
+  "priority_tier": "Tier 3 — monitor",
+  "next_action": "Request identification of the system of record; re-score on response.",
+  "rationale": "Evidence too thin to act on. Absence of verification is not proof of failure."
+}

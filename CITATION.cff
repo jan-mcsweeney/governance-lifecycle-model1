@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: Governance Lifecycle & Issue-Scoring Engine (Model 1)
+message: If you use this framework, please cite it as below.
+type: software
+authors:
+  - family-names: McSweeney
+    given-names: Janis
+abstract: >-
+  A framework-of-frameworks reference combining a closed governance
+  lifecycle with an explicit admissibility gate and a scoring engine
+  that converts governance observations into tiered, actionable
+  assessments. Priority tiers are derived from five independently
+  scored dimensions, with actionability scored separately so that
+  well-evidenced but unremediable observations cannot displace
+  actionable ones.
+keywords:
+  - governance
+  - assurance
+  - risk management
+  - AI governance
+  - records governance
+  - audit
+license: Apache-2.0
+version: 0.1.0

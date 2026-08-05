@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/model1/schema/issue-input.schema.json",
+  "title": "Model 1 — governance issue (input)",
+  "description": "A single governance observation, stated neutrally, with the evidence and chronology that support it. One issue per object.",
+  "type": "object",
+  "required": ["issue", "evidence", "chronology", "intended_use"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Optional stable identifier for the issue.",
+      "pattern": "^[A-Za-z0-9._-]{1,64}$"
+    },
+    "issue": {
+      "type": "string",
+      "minLength": 20,
+      "description": "The observation, stated neutrally. Describe what was found, not what it proves."
+    },
+    "evidence": {
+      "type": "string",
+      "minLength": 10,
+      "description": "What was found AND by what method. Method matters: an absence established by audit sampling is not the same evidentiary object as an absence established by a records search."
+    },
+    "chronology": {
+      "type": "string",
+      "minLength": 10,
+      "description": "The sequence, with periods identified. Use relative periods (Year 1, Q3) rather than real dates in published examples."
+    },
+    "intended_use": {
+      "type": "string",
+      "minLength": 3,
+      "description": "What the assessment feeds into, e.g. assurance review, maturity assessment, audit finding."
+    },
+    "authorising_instrument": {
+      "type": ["string", "null"],
+      "default": null,
+      "description": "Reference to any instrument that authorises the state observed — retention schedule, approved exemption, disposal certificate. Present and verified means the observation is accounted for, and the engine returns Tier 0. This field is what makes 'no issue' a derived outcome rather than a judgement call."
+    },
+    "domain": {
+      "type": "string",
+      "description": "Sector or context, for grouping only. Not scored."
+    }
+  }
+}

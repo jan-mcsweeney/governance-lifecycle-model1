@@ -1,0 +1,147 @@
+{
+  "id": "whs-hazchem-manifest-storage",
+  "instrument": "Work Health and Safety Regulations (model provisions on hazardous chemicals, as adopted in the applicable jurisdiction)",
+  "provision": "Storage of hazardous chemicals above manifest quantities — manifest, placarding, emergency planning and segregation duties",
+  "jurisdiction": "Australia. The model provisions are adopted with variation; non-harmonised jurisdictions impose equivalent duties under separate dangerous goods legislation. Confirm the adopting instrument before relying on this entry.",
+  "bearer": "person conducting a business or undertaking with management or control of the workplace",
+  "applies_from": null,
+  "status": "in force",
+  "duty_character": "standing",
+  "reentry_triggers": [
+    "Any change in the class, quantity or packaging of goods held",
+    "Arrival of a consignment that has not been assessed against the segregation plan",
+    "Change of use in an adjacent tenancy, occupancy or neighbouring site",
+    "Alteration to the building fabric, bunding, ventilation or fire systems",
+    "Expiry or variation of a licence, permit or approval relied on",
+    "Following any incident, near-miss or emergency service attendance"
+  ],
+  "applicability": {
+    "condition": "Applies where hazardous chemicals are held at or above the quantity thresholds set by the applicable schedule. Scope can be entered by ordinary trading — a larger order, slower turnover, a temporary consolidation — with no decision taken and nobody aware.",
+    "threshold_basis": "Quantity thresholds are defined in the schedules to the adopting jurisdiction's regulations. Read the figures from the instrument in force; they vary by jurisdiction and by chemical class, and a threshold recalled from memory is worse in a register than an honest pointer.",
+    "monitoring_control": "Stock-holding report reconciled against the threshold schedule at each inventory cycle, with a standing alert at a margin below the threshold rather than at it",
+    "currently_in_scope": "unknown"
+  },
+  "summary": "Where hazardous chemicals are stored at or above the applicable quantity thresholds, the duty holder must maintain a current manifest of what is held and where, display the required placarding at the site and at storage locations, keep safety data sheets current and accessible, store incompatible classes with the required separation, and maintain an emergency plan prepared in consultation with the emergency services. The duties attach to the state of the site rather than to any particular action, and continue for as long as the goods are held.",
+  "decomposition": {
+    "gate_criteria": [
+      {
+        "criterion": "Is the licence, permit or approval relied on for the goods held current at today's date?",
+        "failure_outcome": "NO-GO",
+        "validity": {
+          "basis": "licence",
+          "expires": null,
+          "monitored_by": "Permit register with expiry alerting at 90, 30 and 7 days"
+        }
+      },
+      {
+        "criterion": "Does the approved segregation plan cover the classes actually on site, as distinct from the classes the plan was written for?",
+        "failure_outcome": "NO-GO",
+        "validity": null
+      },
+      {
+        "criterion": "Is the manifest current as at the last movement of goods, rather than as at the last audit?",
+        "failure_outcome": "NO-GO",
+        "validity": null
+      },
+      {
+        "criterion": "Has the emergency plan been provided to the emergency services and reviewed since the last material change to holdings or site layout?",
+        "failure_outcome": "CONDITIONAL GO",
+        "validity": {
+          "basis": "assessment",
+          "expires": null,
+          "monitored_by": "Emergency plan review schedule"
+        }
+      },
+      {
+        "criterion": "Are the personnel on shift trained for the classes currently held, and is that training current?",
+        "failure_outcome": "CONDITIONAL GO",
+        "validity": {
+          "basis": "training",
+          "expires": null,
+          "monitored_by": "Training matrix with currency flags by class"
+        }
+      }
+    ],
+    "controls": [
+      {
+        "control": "Bunding, ventilation, ignition-source control and fire detection appropriate to the classes held",
+        "type": "technical"
+      },
+      {
+        "control": "Placarding at site entry and at storage locations, positioned to be legible to an approaching emergency response",
+        "type": "design"
+      },
+      {
+        "control": "Manifest updated at each movement of goods, held at the designated location",
+        "type": "procedural"
+      },
+      {
+        "control": "Segregation enforced by physical layout rather than by labelling alone",
+        "type": "design"
+      },
+      {
+        "control": "Safety data sheets obtained at receipt and refreshed on the supplier's revision cycle",
+        "type": "procedural"
+      },
+      {
+        "control": "Lease or occupancy covenant requiring notice of any change of use in adjacent tenancies",
+        "type": "contractual"
+      },
+      {
+        "control": "Carrier and supplier terms requiring advance notification of class or packaging changes",
+        "type": "contractual"
+      }
+    ],
+    "evidence_types": [
+      {
+        "record": "Manifest versions with the time of each movement",
+        "generated_at": "execution",
+        "retention": "per records schedule; retain through the period any goods were held"
+      },
+      {
+        "record": "Placarding photographs at installation and after each layout change",
+        "generated_at": "execution",
+        "retention": "life of the storage arrangement"
+      },
+      {
+        "record": "Segregation plan, versioned, with the approval that adopted it",
+        "generated_at": "design",
+        "retention": "life of the storage arrangement plus limitation period"
+      },
+      {
+        "record": "Inspection and test records for bunding, ventilation and fire systems",
+        "generated_at": "periodic",
+        "retention": "per asset records schedule"
+      },
+      {
+        "record": "Training completions by person and by class, with currency dates",
+        "generated_at": "periodic",
+        "retention": "duration of employment plus limitation period"
+      },
+      {
+        "record": "Emergency plan issue and acknowledgement by the emergency services",
+        "generated_at": "periodic",
+        "retention": "life of the storage arrangement"
+      },
+      {
+        "record": "Stock-holding reconciliation against the threshold schedule",
+        "generated_at": "periodic",
+        "retention": "rolling, minimum one full cycle"
+      }
+    ],
+    "assurance_activities": [
+      "Independent physical inspection against the segregation plan, comparing goods present to goods planned for",
+      "Reconciliation of the manifest to physical stock on an unannounced basis",
+      "Confirmation that the emergency plan held by responders matches the plan on site",
+      "Review of threshold monitoring for whether scope was entered between cycles rather than at one"
+    ]
+  },
+  "related_standards": [
+    "ISO 31000",
+    "ISO 45001",
+    "AS 1940-type storage and handling standards"
+  ],
+  "source": "The adopting jurisdiction's work health and safety regulations and any separate dangerous goods legislation; regulator guidance material for the applicable class.",
+  "review_date": "2027-02-01",
+  "notes": "Deliberately records no numeric thresholds. Quantities vary by jurisdiction and class, and a figure carried in a register without a citation is the kind of confident error that survives review. The threshold_basis field points to where the figures are read; the monitoring control watches the crossing. Note also that currently_in_scope is 'unknown' — an honest state for a demonstration entry, and one the coverage checker will report rather than silently pass."
+}

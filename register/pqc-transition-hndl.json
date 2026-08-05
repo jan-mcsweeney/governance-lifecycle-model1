@@ -1,0 +1,155 @@
+{
+  "id": "pqc-transition-hndl",
+  "instrument": "NIST post-quantum cryptography standards and transition guidance (FIPS 203, 204 and 205, finalised August 2024; NIST IR 8547, Transition to Post-Quantum Cryptography Standards, initial public draft November 2024), together with sector and national migration mandates",
+  "provision": "Migration away from quantum-vulnerable public-key cryptography, and mitigation of harvest-now-decrypt-later exposure in the interim",
+  "jurisdiction": "United States federal systems directly. Adopted widely as a planning anchor elsewhere: the NCSC UK migration guidance sets a comparable end date, Canada has published a similar roadmap, and the Australian Signals Directorate requires that traditional asymmetric cryptography not be used beyond the end of 2030. Confirm the instrument that actually binds the organisation before relying on this entry.",
+  "bearer": "data owner, and the accountable authority for the systems holding the data",
+  "applies_from": null,
+  "status": "advisory",
+  "duty_character": "standing",
+  "reentry_triggers": [
+    "Introduction of any new system, protocol or vendor dependency using public-key cryptography",
+    "Any extension of a retention period for data protected by quantum-vulnerable cryptography",
+    "Renewal or renegotiation of a contract under which a third party holds or transmits the data",
+    "Publication of a revised national or sector migration timeline",
+    "Any material advance in the published capability estimate",
+    "Confirmed or suspected exfiltration of encrypted material, which converts latent exposure into a realised one"
+  ],
+  "applicability": {
+    "condition": "Applies wherever data with a confidentiality requirement extending beyond the estimated capability horizon is protected in transit or at rest by quantum-vulnerable public-key cryptography. Most organisations are in scope without having determined it, because the retention period and the cryptographic inventory are held by different functions and never compared.",
+    "threshold_basis": "There is no quantity threshold. Scope is set by the intersection of the retention schedule and the cryptographic inventory — the two documents that, compared, produce the answer.",
+    "monitoring_control": "Cryptographic inventory reconciled against the records retention schedule at each review cycle, identifying every asset whose required confidentiality period extends past the capability horizon",
+    "currently_in_scope": "unknown"
+  },
+  "latent_exposure": {
+    "harm_begins": "on collection",
+    "assets_at_risk": "Long-retention material protected by quantum-vulnerable public-key cryptography in transit or at rest: statutory records, personal and health information, legal advice, source code signing keys, and any archived encrypted traffic capable of being captured today and stored.",
+    "confidentiality_horizon_years": 15,
+    "migration_duration_years": 5,
+    "capability_horizon_years": 10,
+    "basis": "Mosca's inequality: where the confidentiality horizon plus the migration duration exceeds the capability horizon, material protected today is already exposed. The figures here are illustrative planning assumptions for a demonstration entry, not an estimate — each organisation substitutes its own retention period and a defensible capability assumption, and records the reasoning so a reviewer can test the assumption rather than the conclusion.",
+    "mitigation_must_start_by": "2031-01-01"
+  },
+  "summary": "Public-key cryptography in current use is expected to become breakable by a sufficiently capable quantum computer. Quantum-vulnerable algorithms are to be retired on a published schedule — deprecated after 2030 and disallowed after 2035 under the NIST draft transition timeline, with faster schedules for national security systems and some national regulators setting 2030 as the outer limit. The distinctive feature is not the deadline. It is that encrypted material captured today can be retained and decrypted once the capability exists, so the exposure of data with a long confidentiality requirement is already accruing, and no control applied after collection can undo it. Mitigation is therefore required well in advance of any compliance date, and the ordinary question — when must this be done by — is the wrong question.",
+  "decomposition": {
+    "gate_criteria": [
+      {
+        "criterion": "For any new system or protocol, is a quantum-resistant or hybrid scheme available and adopted, rather than a quantum-vulnerable one that will require re-migration?",
+        "failure_outcome": "NO-GO",
+        "validity": null
+      },
+      {
+        "criterion": "Has the confidentiality horizon of the data been established, and does it extend past the capability horizon?",
+        "failure_outcome": "CONDITIONAL GO",
+        "validity": null
+      },
+      {
+        "criterion": "Where a quantum-vulnerable algorithm is retained, has the data owner documented the risk acceptance with reasons and an end date?",
+        "failure_outcome": "CONDITIONAL GO",
+        "validity": {
+          "basis": "approval",
+          "expires": null,
+          "monitored_by": "Risk acceptance register with mandatory expiry and re-approval"
+        }
+      },
+      {
+        "criterion": "Do contracts with third parties holding or transmitting the data require migration on a compatible timeline?",
+        "failure_outcome": "CONDITIONAL GO",
+        "validity": null
+      }
+    ],
+    "controls": [
+      {
+        "control": "Cryptographic inventory across systems, applications, protocols and vendor dependencies, maintained rather than compiled once",
+        "type": "technical"
+      },
+      {
+        "control": "Crypto-agility in new design: algorithms addressed through an abstraction that permits replacement without re-architecture",
+        "type": "design"
+      },
+      {
+        "control": "Hybrid key establishment during transition, so security holds unless both the classical and post-quantum component fail",
+        "type": "technical"
+      },
+      {
+        "control": "Prioritised migration sequence driven by confidentiality horizon, longest-lived data first, rather than by ease of migration",
+        "type": "procedural"
+      },
+      {
+        "control": "Procurement conditions requiring quantum-resistant capability and a stated vendor migration timeline",
+        "type": "contractual"
+      },
+      {
+        "control": "Reduction of unnecessary retention, which shortens the confidentiality horizon and is the only control that reduces exposure already incurred",
+        "type": "procedural"
+      },
+      {
+        "control": "Key custody in a validated hardware security module or hardware root of trust, with the validated configuration and firmware version recorded",
+        "type": "technical"
+      },
+      {
+        "control": "Hardware refresh planning aligned to the migration sequence, since modules whose algorithms are fixed in firmware cannot be migrated in software and set the pace of the estate",
+        "type": "procedural"
+      },
+      {
+        "control": "Procurement condition requiring algorithm agility or a stated firmware path to quantum-resistant algorithms in any new hardware",
+        "type": "contractual"
+      }
+    ],
+    "evidence_types": [
+      {
+        "record": "Cryptographic inventory, versioned, with the discovery method recorded",
+        "generated_at": "periodic",
+        "retention": "life of the estate plus limitation period"
+      },
+      {
+        "record": "Reconciliation of the inventory against the retention schedule, showing which assets exceed the capability horizon",
+        "generated_at": "periodic",
+        "retention": "rolling, minimum one full cycle"
+      },
+      {
+        "record": "Design records showing algorithm selection for each new system",
+        "generated_at": "design",
+        "retention": "life of system"
+      },
+      {
+        "record": "Documented risk acceptances for retained quantum-vulnerable algorithms, with reasons and expiry",
+        "generated_at": "execution",
+        "retention": "life of the acceptance plus limitation period"
+      },
+      {
+        "record": "Migration plan with the prioritised sequence and its basis",
+        "generated_at": "design",
+        "retention": "until migration complete plus limitation period"
+      },
+      {
+        "record": "Vendor attestations of migration capability and timeline",
+        "generated_at": "periodic",
+        "retention": "term of contract plus limitation period"
+      },
+      {
+        "record": "Hardware inventory recording module models, firmware versions, validated configuration and end-of-support dates",
+        "generated_at": "periodic",
+        "retention": "life of the estate plus limitation period"
+      }
+    ],
+    "assurance_activities": [
+      "Independent verification that the cryptographic inventory is complete, by discovery rather than by survey",
+      "Review of the prioritisation basis: whether the sequence follows confidentiality horizon or convenience",
+      "Testing of risk acceptances for expiry and re-approval rather than indefinite rollover",
+      "Confirmation that the capability assumption has been revisited against current published estimates",
+      "Confirmation that deployed hardware still matches the configuration under which it was validated, and that firmware changes have not moved it outside evaluated scope"
+    ]
+  },
+  "related_standards": [
+    "FIPS 203",
+    "FIPS 204",
+    "FIPS 205",
+    "NIST IR 8547",
+    "NIST SP 800-131A",
+    "ISO/IEC 27002"
+  ],
+  "source": "NIST post-quantum cryptography publications and the IR 8547 draft transition timeline; the applicable national or sector migration mandate.",
+  "review_date": "2027-02-01",
+  "notes": "IR 8547 is an initial public draft, and dates may move on finalisation; the national mandates that actually bind a given organisation move independently. Status is 'advisory' because for most organisations this is a standards and procurement expectation rather than a statutory duty — which is precisely why it is easy to defer, and why the latent exposure matters more than the compliance date. Note that the ordinary register fields cannot express this obligation: applies_from would record a date years away and imply nothing is required now."
+}

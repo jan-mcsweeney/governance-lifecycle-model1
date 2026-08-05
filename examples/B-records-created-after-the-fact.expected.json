@@ -1,0 +1,11 @@
+{
+  "id": "B",
+  "evidence_strength": "High",
+  "chronology_clarity": "High",
+  "governance_relevance": "High",
+  "operational_impact": "High",
+  "actionability": "Moderate",
+  "priority_tier": "Tier 1 — priority",
+  "next_action": "Confirm whether a documented reconstruction process authorised the batch entry; if not, raise as an evidence-integrity finding.",
+  "rationale": "Chronology clarity is the adverse finding here, not the mitigating one."
+}

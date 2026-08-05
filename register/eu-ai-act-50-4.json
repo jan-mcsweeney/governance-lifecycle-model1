@@ -1,0 +1,67 @@
+{
+  "id": "eu-ai-act-50-4",
+  "instrument": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "provision": "Article 50(4)",
+  "jurisdiction": "European Union",
+  "bearer": "deployer",
+  "applies_from": "2026-08-02",
+  "status": "in force",
+  "summary": "A deployer who generates or manipulates image, audio or video content resembling real persons, objects or events such that it would falsely appear authentic must disclose that the content is artificially generated. Where AI-generated text is published to inform the public on matters of public interest, the same disclosure applies unless a human has reviewed it and someone holds editorial responsibility for the publication. Narrower disclosure applies to artistic and satirical work, so as not to spoil the work itself.",
+  "decomposition": {
+    "gate_criteria": [
+      {
+        "criterion": "Is the content within scope — does it depict real persons or events, or is it published to inform the public on a matter of public interest?",
+        "failure_outcome": "NO-GO"
+      },
+      {
+        "criterion": "Where the editorial-responsibility exception is relied on, is a named human accountable for the publication and is that recorded?",
+        "failure_outcome": "NO-GO"
+      },
+      {
+        "criterion": "For creative or satirical work, is disclosure present in a manner that does not obstruct the work?",
+        "failure_outcome": "CONDITIONAL GO"
+      }
+    ],
+    "controls": [
+      {
+        "control": "Publication workflow step classifying content as in or out of scope",
+        "type": "procedural"
+      },
+      {
+        "control": "Label applied at publication, in the same medium as the content",
+        "type": "design"
+      },
+      {
+        "control": "Named editorial accountability recorded per item where the exception is used",
+        "type": "procedural"
+      }
+    ],
+    "evidence_types": [
+      {
+        "record": "Scope classification decision per published item",
+        "generated_at": "execution",
+        "retention": "per publication records schedule"
+      },
+      {
+        "record": "Record of the human reviewer and accountable editor where the exception was relied on",
+        "generated_at": "execution",
+        "retention": "per publication records schedule"
+      },
+      {
+        "record": "Published artefact as it appeared, with label",
+        "generated_at": "execution",
+        "retention": "per publication records schedule"
+      }
+    ],
+    "assurance_activities": [
+      "Sampling of published items against classification decisions",
+      "Confirmation that named editorial accountability was real rather than nominal"
+    ]
+  },
+  "related_standards": [
+    "ISO/IEC 42001"
+  ],
+  "source": "Regulation (EU) 2024/1689 as amended by Regulation (EU) 2026/1744 (ELI: https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng); European Commission guidelines on the Article 50 transparency obligations, adopted July 2026.",
+  "review_date": "2027-02-01",
+  "notes": "The duty here sits on the deployer, not the provider. An organisation may bear 50(4) while bearing none of 50(1) or 50(2) — which is why sub-provisions are separate register entries. Unaffected by the Omnibus amendments as to timing."
+}

@@ -1,0 +1,453 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/model1/schema/obligation-entry.schema.json",
+  "title": "Model 1 — obligation register entry",
+  "description": "One legal or regulatory obligation, decomposed into the lifecycle stages that must carry it. The register is the jurisdiction-specific layer: the lifecycle stays generic, and obligations are added, amended or retired here without altering the model.",
+  "type": "object",
+  "required": [
+    "id",
+    "instrument",
+    "provision",
+    "jurisdiction",
+    "bearer",
+    "summary",
+    "decomposition"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "gate_criterion": {
+      "type": "object",
+      "required": [
+        "criterion",
+        "failure_outcome"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "criterion": {
+          "type": "string",
+          "description": "The question the admissibility gate must ask before execution proceeds."
+        },
+        "failure_outcome": {
+          "type": "string",
+          "enum": [
+            "NO-GO",
+            "CONDITIONAL GO"
+          ],
+          "description": "What the gate returns when the criterion is not met."
+        },
+        "validity": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "default": null,
+          "additionalProperties": false,
+          "required": [
+            "basis"
+          ],
+          "description": "For criteria satisfied by an instrument that expires. A criterion met once and never re-checked is the quietest failure in a register: it was true, nobody changed anything, and it stopped being true.",
+          "properties": {
+            "basis": {
+              "type": "string",
+              "enum": [
+                "licence",
+                "permit",
+                "certification",
+                "assessment",
+                "training",
+                "approval"
+              ],
+              "description": "What confers the satisfied state."
+            },
+            "expires": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "default": null,
+              "description": "Expiry date (ISO 8601) where fixed."
+            },
+            "monitored_by": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "default": null,
+              "description": "The control that watches the expiry. Absent, the criterion is unwatched."
+            }
+          }
+        }
+      }
+    },
+    "control": {
+      "type": "object",
+      "required": [
+        "control",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "control": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "technical",
+            "procedural",
+            "contractual",
+            "design"
+          ],
+          "description": "A disclosure implemented in an interface is a design control; one implemented in a manual is procedural. They fail differently and are evidenced differently."
+        }
+      }
+    },
+    "evidence_type": {
+      "type": "object",
+      "required": [
+        "record",
+        "generated_at"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "record": {
+          "type": "string",
+          "description": "The record that demonstrates the control operated."
+        },
+        "generated_at": {
+          "type": "string",
+          "enum": [
+            "design",
+            "execution",
+            "periodic",
+            "on-demand"
+          ],
+          "description": "When the record comes into existence. Records that can only be generated on demand are the weakest kind: they are reconstructions."
+        },
+        "retention": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null,
+          "description": "Retention requirement or reference to the governing schedule."
+        }
+      }
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9._-]{1,64}$",
+      "description": "Stable identifier, e.g. eu-ai-act-50-1."
+    },
+    "instrument": {
+      "type": "string",
+      "description": "The instrument, by its formal designation."
+    },
+    "provision": {
+      "type": "string",
+      "description": "The specific article, clause or principle. One entry per provision: sub-provisions of the same article often bind different parties and land on different stages."
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "Territorial scope as it applies in practice, including extraterritorial reach where the instrument has it."
+    },
+    "bearer": {
+      "type": "string",
+      "description": "Who carries the duty — provider, deployer, controller, operator, accountable authority. Getting this wrong is the most common register error, because it determines which organisation's gate the criterion belongs in."
+    },
+    "applies_from": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "default": null,
+      "description": "Date the obligation becomes applicable (ISO 8601). Null where not yet fixed."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "in force",
+        "transitional",
+        "pending",
+        "proposed",
+        "advisory",
+        "superseded"
+      ],
+      "default": "in force",
+      "description": "Transitional covers deferred or phased application; the register must be able to hold an obligation that is law but not yet biting. 'Advisory' covers standards and guidance that carry no statutory force but function as a procurement condition or an expected baseline — a register that can only hold statute will miss most of what actually binds an organisation."
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 30,
+      "description": "The duty in the register-keeper's own words. Never the instrument's text — reproducing statutory or standards wording creates a licensing and accuracy liability, and a paraphrase forces the register-keeper to demonstrate they understood it."
+    },
+    "decomposition": {
+      "type": "object",
+      "required": [
+        "gate_criteria",
+        "controls",
+        "evidence_types",
+        "assurance_activities"
+      ],
+      "additionalProperties": false,
+      "description": "The four columns that connect an obligation to the lifecycle. An entry with an empty array in any column is not necessarily wrong, but it is a finding: something must carry the duty, and if nothing does, the obligation is documented and inert.",
+      "properties": {
+        "gate_criteria": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/gate_criterion"
+          },
+          "description": "Pre-execution conditions. Populated only where the duty must be satisfied before an action proceeds."
+        },
+        "controls": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/control"
+          }
+        },
+        "evidence_types": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence_type"
+          }
+        },
+        "assurance_activities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Independent confirmation that the controls operated."
+        }
+      }
+    },
+    "related_standards": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Standards that support conformance. Designations only — no reproduced clause text."
+    },
+    "source": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "default": null,
+      "description": "Where the primary text may be read. The register points; it does not reproduce."
+    },
+    "review_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "default": null,
+      "description": "When this entry must next be re-checked against the instrument. An obligation register without review dates decays silently."
+    },
+    "notes": {
+      "type": "string"
+    },
+    "duty_character": {
+      "type": "string",
+      "enum": [
+        "discharged at design",
+        "standing",
+        "periodic"
+      ],
+      "default": "discharged at design",
+      "description": "How the duty persists. 'Discharged at design' is satisfied once and stays satisfied until the system changes. 'Standing' can lapse with nobody acting at all — stock arrives, an adjacent use changes, a permit expires — so the gate must be re-entered on triggers rather than only on a proposed action. The gate model assumes an action to authorise; standing duties have none, which is why this field exists."
+    },
+    "reentry_triggers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": [],
+      "description": "Events that return a standing duty to the admissibility gate. Required in substance for standing duties: without them the gate is never re-entered and conformance is asserted from the last check indefinitely."
+    },
+    "applicability": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "default": null,
+      "additionalProperties": false,
+      "required": [
+        "condition",
+        "currently_in_scope"
+      ],
+      "description": "For obligations that bind only above a threshold or on a condition. Scope can be crossed by ordinary trading, with no decision taken and nobody aware. An obligation not yet binding but capable of becoming so is a real register state and needs somewhere to sit.",
+      "properties": {
+        "condition": {
+          "type": "string",
+          "description": "What brings the organisation into scope."
+        },
+        "threshold_basis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null,
+          "description": "Where the threshold is defined. Record the reference, not a figure taken from memory — thresholds vary by jurisdiction and schedule, and a wrong number in a register is worse than none."
+        },
+        "monitoring_control": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null,
+          "description": "The control that watches whether the threshold has been crossed. Absent, scope is unmonitored."
+        },
+        "currently_in_scope": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "no",
+            "unknown"
+          ],
+          "description": "'Unknown' is a legitimate and reportable state."
+        }
+      }
+    },
+    "latent_exposure": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "default": null,
+      "additionalProperties": false,
+      "required": [
+        "harm_begins",
+        "assets_at_risk"
+      ],
+      "description": "For anticipatory obligations, where the duty crystallises in the future but the harm begins now. The ordinary fields cannot express this: applies_from says when a duty starts, and has no way to say that action was required well before it. The canonical case is harvest-now-decrypt-later, where data exfiltrated today is decrypted when a capability arrives that does not yet exist.",
+      "properties": {
+        "harm_begins": {
+          "type": "string",
+          "enum": [
+            "on collection",
+            "on capability arrival",
+            "on disclosure"
+          ],
+          "description": "'On collection' is the inverted case: exposure accrues from the moment data exists, and no later control can undo it."
+        },
+        "assets_at_risk": {
+          "type": "string"
+        },
+        "confidentiality_horizon_years": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "default": null,
+          "description": "How long the asset must remain confidential. Usually set by a retention schedule or a statutory secrecy period — a number the organisation already knows and rarely connects to this."
+        },
+        "migration_duration_years": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "default": null,
+          "description": "Realistic elapsed time to complete mitigation across the estate, including discovery and vendor dependencies."
+        },
+        "capability_horizon_years": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "default": null,
+          "description": "Estimated time until the capability that realises the harm exists. Genuinely uncertain, and the entry should record the assumption rather than pretend to knowledge."
+        },
+        "mitigation_must_start_by": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null,
+          "description": "The date derived by working backwards from the capability horizon by the migration duration. This is the field that turns an anticipatory obligation into a present decision — the same move the admissibility gate makes for actions."
+        },
+        "basis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null,
+          "description": "How the dates were derived, so a reviewer can test the assumption rather than the conclusion."
+        }
+      }
+    },
+    "depends_on": {
+      "type": "array",
+      "default": [],
+      "description": "Dependencies on other register entries. Two obligations can each look adequately carried while the combination is impossible — most often because one is mitigated by a control the other constrains. Recording the dependency is what makes a framework of frameworks structurally true rather than presentational: the connectedness becomes checkable.",
+      "items": {
+        "type": "object",
+        "required": [
+          "entry_id",
+          "nature"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "entry_id": {
+            "type": "string",
+            "description": "The id of the entry depended on. Must resolve within the register."
+          },
+          "nature": {
+            "type": "string",
+            "enum": [
+              "mitigation gated by",
+              "evidence relies on",
+              "control shared with",
+              "scope determined by"
+            ],
+            "description": "'Mitigation gated by' is the constraining case: this duty cannot be discharged faster than the entry it depends on permits."
+          },
+          "note": {
+            "type": "string",
+            "description": "What specifically is constrained, and by what."
+          }
+        }
+      }
+    },
+    "contingent_on": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "default": null,
+      "additionalProperties": false,
+      "required": [
+        "condition"
+      ],
+      "description": "For dates or duties that are agreed but not yet law. Between political agreement and publication in the official gazette there is a real interval in which commentary, official guidance and even the regulator's own timeline pages may all report different states of the world. 'Status: transitional' cannot express this: a provisional agreement is not a transitional provision. Records what must happen before the entry's dates bind.",
+      "properties": {
+        "condition": {
+          "type": "string",
+          "description": "What must occur — publication in the official journal or gazette, commencement proclamation, adoption of an implementing act."
+        },
+        "expected_by": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null,
+          "description": "When the condition is expected to be met (ISO 8601). Set the review date at or before this."
+        },
+        "resolved": {
+          "type": "boolean",
+          "default": false,
+          "description": "True once the condition is met. An entry left contingent after its expected date is stale by definition."
+        },
+        "resolved_by": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null,
+          "description": "The instrument or event that resolved it, with a citation."
+        }
+      }
+    }
+  }
+}

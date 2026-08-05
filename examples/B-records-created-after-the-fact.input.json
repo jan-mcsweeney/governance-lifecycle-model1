@@ -1,0 +1,9 @@
+{
+  "id": "B",
+  "domain": "commercial building refurbishment, defect inspection records",
+  "issue": "Defect inspection records for the prior refurbishment stage carry correct inspection dates but were all created in a single batch eighteen months later, by one author.",
+  "evidence": "Register metadata: creation timestamps, author field, batch identifier.",
+  "chronology": "Inspection cycle Year 1; record creation Year 2, second half; identified at Year 3 audit.",
+  "intended_use": "assurance review / audit finding",
+  "authorising_instrument": null
+}
