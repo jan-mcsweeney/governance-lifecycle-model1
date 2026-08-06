@@ -154,6 +154,15 @@ that rests on digital signatures inherits the shelf life of the signing
 algorithm, so it is gated by the cryptographic migration entry — a fact neither
 entry shows alone.
 
+Dependencies also run between instruments, and the AI Act is not self-contained.
+Article 59 permits personal data lawfully collected for other purposes to be
+further processed in a regulatory sandbox — but only data already lawfully
+collected, and expressly without prejudice to Union law on the protection of
+personal data (Art 59(3)). Where an AI system processes personal data, the GDPR
+continues to govern the collection, basis, retention and rights that make the
+processing lawful in the first place. A permission under one instrument,
+conditioned on compliance with another. Planned for v0.2.0.
+
 No statutory or standards text is reproduced anywhere in this repository.
 Entries paraphrase and point to source.
 
