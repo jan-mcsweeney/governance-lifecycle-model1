@@ -38,6 +38,14 @@
       {
         "control": "Flow-down of the requirement to any third party embedding or reselling the system",
         "type": "contractual"
+      },
+            {
+        "control": "Disclosure rendered in the languages of the affected audience, determined by where the system is made available rather than by the language of development",
+        "type": "design"
+      },
+      {
+        "control": "Translated disclosures reviewed for meaning rather than machine-translated, since a disclosure that is present but not understood does not inform the person",
+        "type": "procedural"
       }
     ],
     "evidence_types": [
