@@ -2,7 +2,7 @@
 
 **Model 1** — a reference architecture for connecting governance to operations.
 
-Préface
+### Préface
 
 Ce dépôt est actuellement publié en langue anglaise.
 Son ambition est cependant internationale.
