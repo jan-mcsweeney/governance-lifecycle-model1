@@ -68,6 +68,11 @@
         "record": "Periodic rendering check across supported clients and assistive technologies",
         "generated_at": "periodic",
         "retention": "rolling, minimum one full review cycle"
+      },
+      {
+        "record": "Record of the languages in which the disclosure is published, and the basis on which that set was determined",
+        "generated_at": "design",
+        "retention": "life of system"
       }
     ],
     "assurance_activities": [
