@@ -168,6 +168,14 @@ continues to govern the collection, basis, retention and rights that make the
 processing lawful in the first place. A permission under one instrument,
 conditioned on compliance with another. Planned for v0.2.0.
 
+The gap runs the other way too. Agentic systems — chained, autonomous, with
+persistent memory — are not explicitly defined by the AI Act, which regulates
+market placement on a risk-tiered logic distinct from the GDPR's; the data
+protection framework is what applies to how such systems handle personal data in
+the meantime. See CNIL and Conseil de l'IA et du Numérique, *IA agentique et
+protection des données personnelles : équation à inconnues multiples pour les
+utilisateurs*, July 2026.
+
 No statutory or standards text is reproduced anywhere in this repository.
 Entries paraphrase and point to source.
 
