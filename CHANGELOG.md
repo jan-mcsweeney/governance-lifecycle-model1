@@ -53,7 +53,10 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
  - Article 50(1) entry: added linguistic accessibility controls — disclosure in
   the languages of the affected audience, and review of translations for
   meaning — with a record of the languages assessed and the basis for that set.
-  ### Notes
+- Noted the distinction between control type and control timing (preventive,
+  detective, corrective), and the cross-instrument boundary between the AI Act
+  and the GDPR for agentic systems. Both flagged for v0.2.0.  
   
+  ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
   The tier rules and schema contracts are stable.
