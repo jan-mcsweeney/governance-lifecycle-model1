@@ -32,6 +32,16 @@ implemented in an interface is a design control; the same disclosure implemented
 in a staff manual is procedural. They fail in different ways and are evidenced
 differently, so recording which one you have is not bookkeeping.
 
+**Type is not timing.** The control type records how a control is implemented,
+not when it acts. Those are different axes, and the second is currently absent
+from the schema. A gate criterion requiring human intervention before a critical
+action *prevents*; monitoring for unusual behaviour *detects*; an interruption
+mechanism that halts a process already running *corrects*. All three may be
+technical controls. Recorded only by type, a duty carried entirely by corrective
+controls — everything recoverable, nothing prevented — reads the same as one
+carried by preventive controls, which for irreversible actions is a material
+difference. A `mode` field alongside `type` is planned for v0.2.0.
+
 **Evidence timing** — design, execution, periodic or on-demand. This is the
 sharper distinction. A record generated *as the control runs* is contemporaneous.
 A record generated *on demand* is a reconstruction: assembled after the question
