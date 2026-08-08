@@ -56,6 +56,10 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
 - Noted the distinction between control type and control timing (preventive,
   detective, corrective), and the cross-instrument boundary between the AI Act
   and the GDPR for agentic systems. Both flagged for v0.2.0.  
+- Noted that entries record what a provision requires but not how it has been
+  interpreted, and that pending cases are a better signal of interpretive
+  instability than a review date. An `interpreted_by` field is planned for
+  v0.2.0.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
