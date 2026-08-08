@@ -263,6 +263,25 @@ entry nobody has yet understood.
 The `source` field points at where the authoritative text may be read. The
 register points; it does not reproduce.
 
+**What an entry does not record.** Each entry states what a provision requires
+and points to where its text may be read. Neither tells you how the provision
+has been *read* — by which authority, in which decision, with what effect. For
+data protection in particular, most of the interpretive weight sits in
+regulator decisions and guidance rather than in judgments, and a register that
+points only at the text is pointing at the least contested part of the picture.
+
+The scale is worth stating. The UCL Massively Crossreferenced Digital Laws
+project, maintained by Michael Veale at UCL Laws, records the GDPR as cited by
+over 20,000 documents, with thirty CJEU cases pending; the AI Act by over a
+thousand. It also routes functionally equivalent provisions between instruments,
+so that articles of the earlier Directive inherit the citations of the
+Regulation that replaced them — a principled treatment of what happens to an
+obligation's interpretive history when the instrument changes.
+
+An `interpreted_by` field, distinct from `source`, is planned for v0.2.0.
+Pending cases against a provision are also a better signal of interpretive
+instability than a review date set by the register-keeper.
+
 ## A caution
 
 These entries are a worked demonstration of the register's structure. They are
