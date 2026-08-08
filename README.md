@@ -18,8 +18,8 @@ Les critères d'évaluation (rubric anchors) sont provisoires. L'observation la 
 ## Why it exists
 
 A register of asset inspections. Every record carries the correct inspection
-date. Nothing is missing, nothing contradicts, and an auditor asking *are the
-records complete* would leave satisfied.
+date. Nothing is missing, nothing contradicts, and an auditor checking for
+completeness would leave satisfied.
 
 The metadata shows that all of them were created in a single batch, eighteen
 months after the inspections, by one author.
