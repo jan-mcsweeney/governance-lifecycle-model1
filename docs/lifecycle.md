@@ -91,9 +91,9 @@ contribution.
 | Lifecycle stage | Anchoring standards | Legal status |
 |---|---|---|
 | Impact Assessment | AI impact assessment and DPIA methodologies; ISO/IEC 42005 | Voluntary |
-| Risk Assessment / Management | ISO 31000; ISO/IEC 23894; NIST AI RMF | Voluntary |
+| Risk Assessment / Management | ISO 31000; ISO/IEC 23894; NIST AI RMF; ANSSI, *Développer la confiance dans l'IA à travers une approche par les risques cyber* (2025) | Voluntary; the ANSSI publication is a multi-authority reference document, co-signed by twenty national cybersecurity authorities, and states it is provided *en l'état* with no endorsement implied |
 | Admissibility Gate | Decision-gate and change-advisory logic; organisation-defined criteria | Voluntary |
-| Controls | ISO/IEC 27002; Essential Eight; NIST SP 800-53 | Voluntary; Essential Eight mandatory for some Australian Commonwealth entities |
+| Controls | ISO/IEC 27002; Essential Eight; NIST SP 800-53; ANSSI, *Recommandations de sécurité pour un système d'IA générative* | Voluntary; Essential Eight mandatory for some Australian Commonwealth entities |
 | Assurance | ISO/IEC 42006; IRAP-type assessment; SOC 2-style attestation | Voluntary |
 | Audit / Review | ISO 19011; internal audit standards | Voluntary |
 | Whole-of-cycle management | ISO/IEC 42001; ISO/IEC 23053 | Voluntary |
