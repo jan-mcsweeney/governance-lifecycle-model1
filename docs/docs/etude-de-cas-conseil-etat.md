@@ -1,6 +1,6 @@
 # Étude de cas — La charte d'utilisation de l'IA de la juridiction administrative
 
-*Conseil d'État, 2025*
+*Conseil d'État, 11 décembre 2025*
 
 Ce dépôt soutient qu'un cadre de gouvernance tire sa valeur de sa capacité à
 relier une obligation aux étapes du cycle de vie qui doivent la porter. La
