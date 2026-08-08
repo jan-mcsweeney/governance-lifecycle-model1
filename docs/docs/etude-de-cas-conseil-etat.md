@@ -2,6 +2,13 @@
 
 *Conseil d'État, 11 décembre 2025*
 
+> **In brief.** A case study, in French, of the Conseil d'État's charter on AI
+> use in the French administrative jurisdiction (11 December 2025). It examines
+> three features: an internal instrument that binds without being law; four legal
+> instruments converging on a single requirement; and controls deliberately
+> layered around a control known to be weak. The observations drawn from it are
+> carried into [`obligation-register.md`](obligation-register.md) in English.
+
 Ce dépôt soutient qu'un cadre de gouvernance tire sa valeur de sa capacité à
 relier une obligation aux étapes du cycle de vie qui doivent la porter. La
 charte examinée ici en offre une illustration extérieure : elle n'a pas été
