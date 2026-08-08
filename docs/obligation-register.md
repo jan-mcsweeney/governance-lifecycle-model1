@@ -42,6 +42,17 @@ controls — everything recoverable, nothing prevented — reads the same as one
 carried by preventive controls, which for irreversible actions is a material
 difference. A `mode` field alongside `type` is planned for v0.2.0.
 
+**One control is rarely enough.** Where a control is known to be weak, the
+answer is not a stronger version of it but a second control of a different
+kind. The Conseil d'État's charter on AI use in the French administrative
+jurisdiction requires systematic human verification, then adds two further
+requirements around it — that any AI-derived information be verifiable *by
+another means*, and that responsibility for adopted content cannot be passed
+back to the tool. The reason is stated: a person checking a proposal is subject
+to anchoring bias in a way a person drafting is not. An entry recording human
+review as its sole control has recorded a control whose known failure mode is
+unaddressed. See [`docs/etude-de-cas-conseil-etat.md`](etude-de-cas-conseil-etat.md).
+
 **Evidence timing** — design, execution, periodic or on-demand. This is the
 sharper distinction. A record generated *as the control runs* is contemporaneous.
 A record generated *on demand* is a reconstruction: assembled after the question
@@ -103,6 +114,15 @@ which entry a duty leans on and how — `mitigation gated by` being the
 constraining case: this duty cannot be discharged faster than the entry it
 depends on permits.
 
+Obligations converging from several instruments are not hypothetical. On the
+single question of whether an automated system may decide, the Conseil d'État's
+charter stacks four: the AI Act at recital 61, GDPR Article 22, the French loi
+informatique et libertés of 1978 at article 47, and the code de justice
+administrative with the jurisdiction's own ethics charter. Different ranks,
+different logics — two EU regulations, a French statute, a code — decomposed
+into one operational requirement. This is the framework-of-frameworks claim
+made by someone else, in another jurisdiction, without reference to this model.
+
 The worked instance is in the register. Article 50(2) requires synthetic content
 to be marked machine-readably and detectably. Where that marking rests on digital
 signatures for provenance, it inherits the shelf life of the signing algorithm —
@@ -140,6 +160,14 @@ timeline graphic claiming to include the amendments carried four wrong dates, an
 the official implementation timeline it drew on was itself showing the
 pre-amendment position more than a week after the amending regulation was in
 force. The field exists because the interval is not hypothetical.
+
+**Two questions precede the gate.** The admissibility gate asks whether an
+action may proceed. Two prior questions are not currently expressible: what role
+the organisation occupies, which determines whose duty is engaged at all; and
+whether the tool should be used for this task, which the Conseil d'État charter
+frames as asking whether the same result could be reached by another means —
+on grounds of efficiency, reliability and environmental cost together. Both sit
+before the gate rather than in it. Planned for v0.2.0.
 
 ## Coverage findings
 
