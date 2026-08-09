@@ -136,6 +136,39 @@ Recording the dependency is what makes a framework of frameworks structurally
 true rather than presentational: the connectedness becomes checkable, and a
 dependency pointing at an entry that is not in the register is reported.
 
+**National law in the spaces the Regulation leaves.** Two Member States show
+different answers to the same instrument, and both are cross-instrument
+relationships of the kind this register exists to record.
+
+Italy legislated. Legge 23 settembre 2025, n. 132, in force 10 October 2025, does
+not replace the AI Act; its opening article states that Regulation (EU) 2024/1689
+remains directly applicable while the national law operates in the spaces left to
+Member States. Its sectoral articles reach health, employment, the intellectual
+professions, public administration, judicial activity and national cybersecurity.
+Article 13(2) requires professionals to inform clients about the AI systems used,
+in language that is clear, simple and exhaustive — an Article 50-shaped
+disclosure duty arriving from national law rather than from the Regulation.
+
+Spain has a bill. The Proyecto de Ley Orgánica para el buen uso y la gobernanza
+de la inteligencia artificial was approved by the Consejo de Ministros on 26 May
+2026 and published in the BOCG on 12 June 2026. In this register's terms it is
+`status: pending`, `contingent_on` publication in the BOE. It introduces a
+*delegado de IA* in the state public sector — a named accountable role — and
+incorporates a prohibition on sexual deepfake systems agreed in Council on 7 May
+2026 at Spain's initiative with French support.
+
+**Who supervises is not who owes.** The Spanish architecture divides market
+surveillance by domain: AESIA generally, but the Banco de España for
+creditworthiness, the AEPD for data and for migration and asylum systems, the
+CGPJ for AI in the administration of justice, the Junta Electoral Central for
+electoral processes, the Dirección General de Seguros, the CNMV for capital
+markets. One obligation, seven possible supervisors. The CES noted in Dictamen
+3/2026 that the risk of competence overlap between AESIA and the AEPD is
+particularly acute. This register records `bearer` — who owes the duty. It
+records nothing about who enforces it, and where enforcement is distributed by
+domain that is a material omission. A `supervised_by` field is planned for
+v0.2.0.
+
 **A note on what does not become an entry.** Hardware trusted environments —
 secure enclaves, hardware security modules, roots of trust — are almost never
 obligations. They are controls discharging other duties, and they belong in
