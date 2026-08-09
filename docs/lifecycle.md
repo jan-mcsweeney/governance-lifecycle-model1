@@ -55,6 +55,8 @@ Ongoing treatment of risks carried into operation.
 **8. Controls**
 The measures applied.
 
+Sabt, Achemlal & Bouabdallah, *Trusted Execution Environment: What It Is, and What It Is Not*, 14th IEEE Int. Conf. on Trust, Security and Privacy in Computing and Communications, Helsinki, 2015 (Orange Labs Caen; Sorbonne / UTC Compiègne; open access via HAL, hal-01246364)
+
 **9. Evidence**
 Records generated that demonstrate the controls operated.
 
