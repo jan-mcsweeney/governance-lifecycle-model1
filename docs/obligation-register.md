@@ -42,6 +42,23 @@ controls — everything recoverable, nothing prevented — reads the same as one
 carried by preventive controls, which for irreversible actions is a material
 difference. A `mode` field alongside `type` is planned for v0.2.0.
 
+**A guarantee has a boundary, and the boundary is the point.** Recording that a
+control exists says nothing about what it covers. The EU Cloud Services scheme's
+earlier drafts carried sovereignty requirements — data stored in the EU,
+providers headquartered there — aimed at unauthorised access by third-country
+authorities. Those requirements were removed, so a provider may hold the highest
+assurance level and remain subject to foreign extraterritorial process over data
+held in the EU. The certification addresses security; it does not address
+jurisdiction, and the two are routinely conflated.
+
+The pattern recurs. A trusted execution environment has a definitional literature
+precisely because the term is used inconsistently and is poorly differentiated
+from related concepts. A tamper-evident log secures the account without
+establishing that the account was accurate when written. In each case the control
+is real and the assumption about its reach is not. An entry that records the
+control without recording where its guarantee stops has recorded the reassuring
+half.
+
 **One control is rarely enough.** Where a control is known to be weak, the
 answer is not a stronger version of it but a second control of a different
 kind. The Conseil d'État's charter on AI use in the French administrative
@@ -176,6 +193,21 @@ obligations. They are controls discharging other duties, and they belong in
 control in the obligations layer is the same category error as putting a specific
 law inside the lifecycle: the register would begin describing solutions rather
 than duties, which is how a register becomes a product catalogue.
+
+The same applies to certification schemes. The EU Cloud Services scheme, developed
+by ENISA under the Cybersecurity Act, Regulation (EU) 2019/881, certifies
+cybersecurity posture at three assurance levels. It is not a duty; nobody is in
+breach for lacking certification. It is a means of demonstrating that controls
+are in place, which belongs in `assurance_activities`.
+
+This case is harder than the hardware one, and worth stating for that reason. The
+scheme is formally voluntary, but NIS2 and the Data Act create pathways by which
+authorities may require certified providers, and procurement may require it
+independently. Member States may add national criteria — France through
+SecNumCloud, Germany through BSI C5 — so the effective requirement varies within
+a scheme designed to harmonise. Voluntary in form and binding in effect is a
+condition this register's `status` vocabulary cannot express, and `advisory` does
+not reach it.
 
 **Agreed is not enacted.** Between a political agreement and publication in the
 official gazette there is a real interval, and during it commentary, official
