@@ -64,6 +64,10 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   States (Italy, Legge 132/2025; Spain, Proyecto de Ley Orgánica, pending), and
   that the register records who owes a duty but not who supervises it. A
   `supervised_by` field is planned for v0.2.0.
+- Noted what authority a published text carries: the presumption attaching to
+  official publication, the distinction between errata corrige and avviso di
+  rettifica, and consolidated texts as sources on which the public may
+  innocently rely.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
