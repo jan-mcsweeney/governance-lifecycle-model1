@@ -50,7 +50,7 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   standards from harmonised standards under the EU AI Act. As at August 2026 no
   CEN-CENELEC AI Act standard has been published or cited in the Official
   Journal, so none yet confers presumption of conformity.
- - Article 50(1) entry: added linguistic accessibility controls — disclosure in
+- Article 50(1) entry: added linguistic accessibility controls — disclosure in
   the languages of the affected audience, and review of translations for
   meaning — with a record of the languages assessed and the basis for that set.
 - Noted the distinction between control type and control timing (preventive,
@@ -60,6 +60,10 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   interpreted, and that pending cases are a better signal of interpretive
   instability than a review date. An `interpreted_by` field is planned for
   v0.2.0.
+- Noted national implementations in the spaces the AI Act leaves to Member
+  States (Italy, Legge 132/2025; Spain, Proyecto de Ley Orgánica, pending), and
+  that the register records who owes a duty but not who supervises it. A
+  `supervised_by` field is planned for v0.2.0.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
