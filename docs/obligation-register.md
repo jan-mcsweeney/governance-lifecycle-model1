@@ -43,13 +43,20 @@ carried by preventive controls, which for irreversible actions is a material
 difference. A `mode` field alongside `type` is planned for v0.2.0.
 
 **A guarantee has a boundary, and the boundary is the point.** Recording that a
-control exists says nothing about what it covers. The EU Cloud Services scheme's
-earlier drafts carried sovereignty requirements — data stored in the EU,
-providers headquartered there — aimed at unauthorised access by third-country
-authorities. Those requirements were removed, so a provider may hold the highest
-assurance level and remain subject to foreign extraterritorial process over data
-held in the EU. The certification addresses security; it does not address
-jurisdiction, and the two are routinely conflated.
+control exists says nothing about what it covers. The EU Cloud Services scheme
+illustrates the difficulty twice over. Its published candidate version — ENISA,
+22 December 2020, under Article 48(2) of the Cybersecurity Act — certifies
+cybersecurity posture at defined assurance levels. Whether it also carries
+sovereignty requirements, obliging data to be held in the EU and providers to be
+established there, has been contested since; later drafts are reported to have
+removed them, but those drafts were not officially published, and no final scheme
+has issued. Six years after the candidate version, the position on what the
+certification would guarantee is neither settled nor published.
+
+If the sovereignty criteria are absent, a provider may hold the highest assurance
+level and remain subject to foreign extraterritorial process over data held in
+the EU: the certification would address security, not jurisdiction, and the two
+are routinely conflated.
 
 The pattern recurs. A trusted execution environment has a definitional literature
 precisely because the term is used inconsistently and is poorly differentiated
