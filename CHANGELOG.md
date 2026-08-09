@@ -68,6 +68,12 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   official publication, the distinction between errata corrige and avviso di
   rettifica, and consolidated texts as sources on which the public may
   innocently rely.
+- Noted that certification schemes are assurance activities rather than duties,
+  using the EU Cloud Services scheme (ENISA candidate scheme, 22 December 2020)
+  as the harder case: voluntary in form, capable of binding through NIS2 and
+  procurement, with its sovereignty criteria unsettled and no final scheme
+  published. Also noted that a control's guarantee has a boundary, which an entry
+  should record.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
