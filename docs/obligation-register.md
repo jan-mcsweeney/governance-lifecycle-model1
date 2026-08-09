@@ -315,6 +315,25 @@ An `interpreted_by` field, distinct from `source`, is planned for v0.2.0.
 Pending cases against a provision are also a better signal of interpretive
 instability than a review date set by the register-keeper.
 
+**What the published text is worth.** A register points at sources, so the status
+of a published text is not incidental to it. Italian law is unusually explicit
+here. Under article 8 of Testo Unico n. 1092/1985, publication in the Gazzetta
+Ufficiale is presumed conform to the original and constitutes the legal text of
+the act, until inaccuracy is proven by production of an authentic act. Errors are
+corrected by one of two distinct instruments: an *errata corrige* for errors
+arising in printing, and an *avviso di rettifica* for material errors in the
+original or the copy sent for publication. Legge 132/2025 carries the second.
+
+Consolidated and updated texts occupy a third position. They do not replace the
+originals, but their official provenance makes them, in the Ministry of Justice's
+formulation, *fonti di affidamento incolpevole da parte della collettività* —
+sources on which the public may innocently rely. That names precisely the problem
+this register met over the Digital Omnibus, when an official implementation
+timeline still showed the pre-amendment position more than a week after the
+amending regulation entered into force. An entry's `source` should point at the
+instrument, and a register-keeper should know which of these three things they
+are looking at.
+
 ## A caution
 
 These entries are a worked demonstration of the register's structure. They are
