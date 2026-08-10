@@ -66,6 +66,21 @@ is real and the assumption about its reach is not. An entry that records the
 control without recording where its guarantee stops has recorded the reassuring
 half.
 
+Distributed ledgers are the case where that assumption is most often made. A
+ledger can establish that an entry has not been altered since it was written, and
+that it was written by a holder of a particular key. It cannot establish that
+what was written was true, that the key was held by the person it was issued to,
+or that anything happened off the ledger at all. Where an obligation is evidenced
+by a record, the ledger secures the record's integrity and the custody of it —
+two of the three properties evidence needs. The third, accuracy at the point of
+writing, is not a property any ledger confers, and no amount of cryptographic
+assurance supplies it.
+
+This places the mechanism in `controls`, with `type: technical`, as an integrity
+and custody control on the Evidence stage. It does not place it in
+`assurance_activities`: confirming that a record is unchanged is not confirming
+that a control operated.
+
 **One control is rarely enough.** Where a control is known to be weak, the
 answer is not a stronger version of it but a second control of a different
 kind. The Conseil d'État's charter on AI use in the French administrative
