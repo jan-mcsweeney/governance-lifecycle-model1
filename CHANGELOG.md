@@ -74,6 +74,9 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   procurement, with its sovereignty criteria unsettled and no final scheme
   published. Also noted that a control's guarantee has a boundary, which an entry
   should record.
+- Placed distributed ledgers as an integrity and custody control on the Evidence
+  stage, with the boundary stated: a ledger secures a record's integrity and its
+  custody, but not the accuracy of the record at the point of writing.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
