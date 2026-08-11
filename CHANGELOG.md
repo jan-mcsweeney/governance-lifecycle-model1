@@ -96,6 +96,8 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   works created with AI assistance, and adds a text and data mining provision;
   Article 24 delegates literacy and training to professional orders, with fair
   compensation scaled to responsibility.
+- Collected the eight limitations the schema does not express, previously
+  recorded separately, into a single section.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
