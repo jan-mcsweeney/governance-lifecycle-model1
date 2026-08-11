@@ -89,6 +89,13 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   something: liability attaches to the absence of adequate safeguards against
   reasonably foreseeable misuse, so compliance is evidenced by the safeguards
   rather than by absence.
+- Verified the Italian provisions against the text of Legge 23 settembre 2025, n.
+  132: Article 1(2) subordinates the law to Regulation (EU) 2024/1689 in
+  interpretation; Article 13 restricts use before requiring disclosure; Article 25
+  narrows copyright to works of human intellect while preserving protection for
+  works created with AI assistance, and adds a text and data mining provision;
+  Article 24 delegates literacy and training to professional orders, with fair
+  compensation scaled to responsibility.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
