@@ -248,38 +248,6 @@ the official implementation timeline it drew on was itself showing the
 pre-amendment position more than a week after the amending regulation was in
 force. The field exists because the interval is not hypothetical.
 
-**A condition on the state of the world.** The `contingent_on` field was built for
-a procedural condition: dates that do not bind until an instrument is published.
-Article 113 of the AI Act, as amended by Regulation (EU) 2026/1744, shows a
-harder case.
-
-The high-risk obligations in Chapter III, Sections 1 to 3, apply following the
-adoption of a Commission decision confirming that adequate measures in support of
-compliance are available — six months after that decision for systems classified
-as high-risk under Article 6(2) and Annex III, twelve months for those under
-Article 6(1) and Annex I. In the absence of such a decision, or where the fixed
-dates fall earlier, the obligations apply on 2 December 2027 and 2 August 2028
-respectively.
-
-Three features distinguish this from a deferred date. The condition is
-substantive rather than procedural: it is a judgement about whether standards,
-common specifications and guidance exist, not a step in a publication process.
-The condition can bring application forward as well as defer it, so the fixed
-dates are a ceiling rather than a schedule. And an organisation cannot plan from
-the ceiling alone, because a decision taken early enough would bring the
-obligations into effect before it.
-
-The register records this as `contingent_on` with the condition stated, but the
-field cannot express that a date is *determined* by a condition rather than
-suspended by one, nor that a ceiling exists behind it. Planned for v0.2.0.
-
-The connection to the standards mapping is now operative rather than thematic.
-Whether adequate measures in support of compliance exist is the question the
-Commission must answer, and the harmonised standards under development by
-CEN-CENELEC are among those measures. Their status as recorded in
-`lifecycle.md` — none published, none cited in the Official Journal — is
-therefore not background but a direct input to the trigger.
-
 **Two questions precede the gate.** The admissibility gate asks whether an
 action may proceed. Two prior questions are not currently expressible: what role
 the organisation occupies, which determines whose duty is engaged at all; and
