@@ -84,6 +84,11 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   2026/1744: a permission to process special categories of personal data for bias
   detection and correction, expressly in addition to data protection law, with six
   cumulative conditions each of which is a control, an evidence type, or both.
+- Recorded the Article 5 prohibitions added by Regulation (EU) 2026/1744,
+  applying from 2 December 2026, as the worked example of a duty not to do
+  something: liability attaches to the absence of adequate safeguards against
+  reasonably foreseeable misuse, so compliance is evidenced by the safeguards
+  rather than by absence.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
