@@ -77,6 +77,9 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
 - Placed distributed ledgers as an integrity and custody control on the Evidence
   stage, with the boundary stated: a ledger secures a record's integrity and its
   custody, but not the accuracy of the record at the point of writing.
+- Corrected the Article 50(2) entry: the transitional period to 2 December 2026
+  sits in Article 111(4) of Regulation (EU) 2024/1689, added by Regulation (EU)
+  2026/1744, not in Article 50 itself. Verified against the adopted text.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
