@@ -276,8 +276,9 @@ suspended by one, nor that a ceiling exists behind it. Planned for v0.2.0.
 The connection to the standards mapping is now operative rather than thematic.
 Whether adequate measures in support of compliance exist is the question the
 Commission must answer, and the harmonised standards under development by
-CEN-CENELEC are among those measures. As recorded in `lifecycle.md`, none has yet
-been published or cited in the Official Journal.
+CEN-CENELEC are among those measures. Their status as recorded in
+`lifecycle.md` — none published, none cited in the Official Journal — is
+therefore not background but a direct input to the trigger.
 
 **Two questions precede the gate.** The admissibility gate asks whether an
 action may proceed. Two prior questions are not currently expressible: what role
