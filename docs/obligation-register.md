@@ -540,9 +540,9 @@ are looking at.
 
 ## What the schema does not express
 
-Eight limitations, each found by putting the model against an instrument rather
-than by inspecting the schema. They are listed together because the pattern is
-worth seeing: most concern what surrounds an obligation — who enforces it, how it
+Eight limitations, each found by putting the model against an instrument becomes 
+Nine limitations. They are listed together because the pattern is worth seeing: 
+most concern what surrounds an obligation — who enforces it, how it
 has been read, what a control actually covers, what breach costs — rather than
 the obligation itself. That may be where the model's boundary genuinely lies.
 
@@ -596,6 +596,13 @@ before an action proceeds, what discharges it, what evidences it and who confirm
 it. It says nothing about what follows if none of that happens. An obligation
 whose breach carries a minor administrative penalty is a different governance
 object from one carrying a fine of seven per cent of worldwide turnover.
+
+**9. Obligations that pair.** An entry has one bearer. Article 4 of Regulation
+(EU) 2024/1689 imposes a duty on providers and deployers and, in the same
+article, a supporting duty on the Commission and Member States to facilitate
+compliance with it. The two are connected — one exists to make the other
+achievable — and the register can record them only as separate entries with no
+relationship between them. `depends_on` records constraint, not support.
 
 ## A caution
 
