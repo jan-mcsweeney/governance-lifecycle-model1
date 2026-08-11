@@ -179,14 +179,44 @@ dependency pointing at an entry that is not in the register is reported.
 different answers to the same instrument, and both are cross-instrument
 relationships of the kind this register exists to record.
 
-Italy legislated. Legge 23 settembre 2025, n. 132, in force 10 October 2025, does
-not replace the AI Act; its opening article states that Regulation (EU) 2024/1689
-remains directly applicable while the national law operates in the spaces left to
-Member States. Its sectoral articles reach health, employment, the intellectual
-professions, public administration, judicial activity and national cybersecurity.
-Article 13(2) requires professionals to inform clients about the AI systems used,
-in language that is clear, simple and exhaustive — an Article 50-shaped
-disclosure duty arriving from national law rather than from the Regulation.
+Italy legislated. Legge 23 settembre 2025, n. 132 sets out principles on the
+research, experimentation, development, adoption and application of AI systems
+and models, and provides at Article 1(2) that its provisions are to be
+interpreted and applied in conformity with Regulation (EU) 2024/1689. Not a
+national law occupying ground the Regulation vacates, but one expressly
+subordinated to it in interpretation.
+
+Three provisions show what a Member State does with the space that leaves.
+
+Article 13 restricts use before it requires disclosure. Paragraph 1 confines the
+use of AI systems in the intellectual professions to instrumental and supporting
+activities, with the intellectual work that is the object of the engagement
+remaining predominant. Paragraph 2 then requires that information about the AI
+systems used be communicated to the recipient of the intellectual service in
+clear, simple and exhaustive language — grounded expressly in the fiduciary
+relationship between professional and client rather than in transparency at
+large. A gate criterion and a disclosure duty in two paragraphs.
+
+Article 25 amends the copyright law of 1941 twice in a single provision. It
+inserts the word *umano* after *opere dell'ingegno*, narrowing the subject matter
+to works of human intellect; and then adds that protection extends to works
+created with the aid of AI tools *purché costituenti risultato del lavoro
+intellettuale dell'autore* — provided they constitute the result of the author's
+intellectual work. One word restricts, the following clause preserves. A second
+limb inserts Article 70-septies, permitting reproductions and extractions from
+lawfully accessible works and databases for text and data mining through AI
+models, including generative ones, in conformity with the existing exceptions and
+subject to the Berne Convention.
+
+Article 24 delegates. Points (e) and (f) provide for literacy and training paths
+on the use of AI systems, and specifically for such paths to be provided by
+professional orders and the most representative category associations for
+professionals and operators in their sector — professional self-regulation as the
+delivery mechanism rather than a state scheme. Point (f) closes with provision
+for the possible recognition of an *equo compenso* modulated on the
+responsibilities and risks connected with the use of AI systems: fair
+compensation scaled to the responsibility the professional retains under
+Article 13.
 
 Spain has a bill. The Proyecto de Ley Orgánica para el buen uso y la gobernanza
 de la inteligencia artificial was approved by the Consejo de Ministros on 26 May
