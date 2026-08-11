@@ -196,6 +196,36 @@ de la inteligencia artificial was approved by the Consejo de Ministros on 26 May
 incorporates a prohibition on sexual deepfake systems agreed in Council on 7 May
 2026 at Spain's initiative with French support.
 
+**A permission with its conditions on the face of it.** Article 4a of Regulation
+(EU) 2024/1689, inserted by Regulation (EU) 2026/1744, permits providers of
+high-risk AI systems to process special categories of personal data where
+strictly necessary for bias detection and correction, and permits others to do so
+where bias is likely to affect health and safety, negatively affect fundamental
+rights, or lead to discrimination prohibited under Union law. Like Article 59 on
+regulatory sandboxes, the permission is expressly *in addition to* the provisions
+of Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680: an
+AI Act permission that does not displace data protection law but sits on top of
+it.
+
+What distinguishes it is that the conditions are enumerated. Six of them,
+cumulative: that the objective cannot be met by other data, including synthetic
+or anonymised data; technical limitations on re-use with state-of-the-art
+security and privacy-preserving measures including pseudonymisation; access
+controls with documentation of access; no transmission, transfer or access by
+other parties; deletion once the bias is corrected or the retention period ends,
+whichever comes first; and a record in the processing activities register of why
+the processing was strictly necessary and why the objective could not be achieved
+by processing other data.
+
+Each condition is a control, an evidence type, or both. The last is explicitly a
+record. A register entry for this provision would decompose almost mechanically,
+which is what a well-drafted permission looks like from the operational side —
+and the contrast with provisions that state a duty and leave its discharge
+unspecified is worth noticing.
+
+The provision closes by stating that it creates no obligation to conduct bias
+detection and correction at all.
+
 **Who supervises is not who owes.** The Spanish architecture divides market
 surveillance by domain: AESIA generally, but the Banco de España for
 creditworthiness, the AEPD for data and for migration and asylum systems, the
