@@ -80,6 +80,10 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
 - Corrected the Article 50(2) entry: the transitional period to 2 December 2026
   sits in Article 111(4) of Regulation (EU) 2024/1689, added by Regulation (EU)
   2026/1744, not in Article 50 itself. Verified against the adopted text.
+- Recorded Article 4a of Regulation (EU) 2024/1689, inserted by Regulation (EU)
+  2026/1744: a permission to process special categories of personal data for bias
+  detection and correction, expressly in addition to data protection law, with six
+  cumulative conditions each of which is a control, an evidence type, or both.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
