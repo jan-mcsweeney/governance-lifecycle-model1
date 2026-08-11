@@ -482,6 +482,65 @@ amending regulation entered into force. An entry's `source` should point at the
 instrument, and a register-keeper should know which of these three things they
 are looking at.
 
+## What the schema does not express
+
+Eight limitations, each found by putting the model against an instrument rather
+than by inspecting the schema. They are listed together because the pattern is
+worth seeing: most concern what surrounds an obligation — who enforces it, how it
+has been read, what a control actually covers, what breach costs — rather than
+the obligation itself. That may be where the model's boundary genuinely lies.
+
+None invalidates an existing entry. All are additive, and all are planned for
+v0.2.0.
+
+**1. When a control acts.** `type` records how a control is implemented —
+technical, procedural, contractual, design. It does not record whether the
+control prevents, detects or corrects. A duty carried entirely by corrective
+controls reads the same as one carried by preventive controls, which for
+irreversible actions is a material difference. A `mode` field would separate them.
+
+**2. Role determination.** An entry records `bearer` as a conclusion. An
+organisation applying the register must first determine what role it occupies —
+provider, deployer, distributor, importer, or user of a third-party tool — and
+that determination is itself a decision requiring evidence and an owner. It sits
+before the gate, and has nowhere to sit in the schema.
+
+**3. The necessity test.** The Conseil d'État charter asks, before use, whether
+the same result could be reached by another means — on grounds of efficiency,
+reliability and environmental cost together. That is a question about whether the
+tool should be used at all, prior to whether the action may proceed. Also before
+the gate, also unexpressed.
+
+**4. How a provision has been read.** `source` points at where the text may be
+found. Nothing records how the provision has been interpreted — by which
+authority, in which decision, with what effect. For data protection in
+particular, most interpretive weight sits in regulator decisions and guidance
+rather than in judgments. An `interpreted_by` field would hold it.
+
+**5. Who supervises.** `bearer` records who owes a duty. Where enforcement is
+allocated by provision and by use across several authorities, with a residual
+authority behind them, the register is silent on who would act. A `supervised_by`
+field would record it.
+
+**6. Voluntary in form, binding in effect.** `status` distinguishes in force,
+transitional, pending, proposed, advisory and superseded. It cannot express a
+scheme that binds nobody directly but is required through other instruments or
+through procurement — nor one whose effective requirements vary by Member State
+within a framework designed to harmonise.
+
+**7. Where a guarantee stops.** An entry records that a control exists. It does
+not record what the control covers and, more importantly, what it does not — a
+certification addressing security but not jurisdiction, a validated module
+covering one configuration and firmware version, a ledger securing a record's
+integrity but not its accuracy. Recording the control without its boundary
+records the reassuring half.
+
+**8. What breach costs.** The register decomposes a duty into what must be true
+before an action proceeds, what discharges it, what evidences it and who confirms
+it. It says nothing about what follows if none of that happens. An obligation
+whose breach carries a minor administrative penalty is a different governance
+object from one carrying a fine of seven per cent of worldwide turnover.
+
 ## A caution
 
 These entries are a worked demonstration of the register's structure. They are
