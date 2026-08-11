@@ -226,6 +226,40 @@ unspecified is worth noticing.
 The provision closes by stating that it creates no obligation to conduct bias
 detection and correction at all.
 
+**A prohibition, evidenced.** A register built around duties to do things handles
+duties *not* to do them poorly, because compliance is evidenced by absence and an
+absence is not a record. Article 5 of Regulation (EU) 2024/1689, as amended by
+Regulation (EU) 2026/1744, shows how a well-drafted prohibition solves this.
+
+Two practices are added from 2 December 2026: AI systems that generate or
+manipulate realistic material depicting an identifiable natural person's intimate
+parts or that person engaged in sexually explicit activities without their freely
+given, specific, informed, unambiguous and explicit consent; and systems that
+generate or manipulate material or performance within the meaning of Article 2,
+points (c) and (e), of Directive 2011/93/EU, subject to a "without right" defence
+under national law.
+
+The operative content is in the qualifying paragraph. Placing on the market or
+putting into service is prohibited only where such generation is the system's
+intended purpose, **or** where its design, training, architecture, capabilities or
+user-facing functionalities make that outcome reasonably foreseeable and
+reproducible without significant technical modification, **and** the system lacks
+reasonable and adequate technical safety measures and other safeguards to
+reliably prevent it, taking into account reasonably foreseeable misuse, and to
+correct observed or reported misuse. Use is prohibited only where the deployer
+uses the system for that purpose.
+
+So the prohibition is not evidenced by absence at all. It is evidenced by the
+safeguards: what was assessed as reasonably foreseeable misuse, what measures
+were implemented, whether they reliably prevent the outcome, and what was done
+about misuse once observed or reported. Those are gate criteria, controls,
+evidence types and assurance activities in the ordinary way.
+
+The lesson generalises. Where a prohibition attaches liability to the absence of
+adequate safeguards rather than to the occurrence of the prohibited act alone, it
+becomes decomposable. Where it does not, the register has nothing to record but a
+duty and a hope.
+
 **Who supervises is not who owes.** The Spanish architecture divides market
 surveillance by domain: AESIA generally, but the Banco de España for
 creditworthiness, the AEPD for data and for migration and asylum systems, the
