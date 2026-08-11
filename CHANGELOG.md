@@ -77,11 +77,6 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
 - Placed distributed ledgers as an integrity and custody control on the Evidence
   stage, with the boundary stated: a ledger secures a record's integrity and its
   custody, but not the accuracy of the record at the point of writing.
-- Recorded the Article 113 mechanism as amended by Regulation (EU) 2026/1744: a
-  Commission decision on the availability of supporting measures triggers
-  application of the high-risk obligations, with 2 December 2027 and 2 August
-  2028 as ceilings. The `contingent_on` field cannot express a condition that
-  determines a date rather than suspending it.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
