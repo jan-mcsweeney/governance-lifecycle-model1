@@ -220,11 +220,50 @@ Article 13.
 
 Spain has a bill. The Proyecto de Ley Orgánica para el buen uso y la gobernanza
 de la inteligencia artificial was approved by the Consejo de Ministros on 26 May
-2026 and published in the BOCG on 12 June 2026. In this register's terms it is
-`status: pending`, `contingent_on` publication in the BOE. It introduces a
-*delegado de IA* in the state public sector — a named accountable role — and
-incorporates a prohibition on sexual deepfake systems agreed in Council on 7 May
-2026 at Spain's initiative with French support.
+2026 and published in the Boletín Oficial de las Cortes Generales, Serie A, núm.
+97-1, on 12 June 2026. In this register's terms it is `status: pending`,
+`contingent_on` publication in the BOE. Its fourth chapter requires the state
+public sector to provide information about the AI systems used in the exercise of
+its functions, to register those systems, and to designate a *delegado de
+inteligencia artificial* responsible for coordinating correct application of the
+AI regulatory framework — a named accountable role, of the kind the `bearer`
+field could use.
+
+**Who supervises is not who owes.** The Spanish architecture divides market
+surveillance across AESIA, the Agencia Española de Protección de Datos, the Banco
+de España, the Comisión Nacional del Mercado de Valores, the Dirección General de
+Seguros y Fondos de Pensiones, the Consejo General del Poder Judicial and the
+Junta Electoral Central.
+
+The division is finer than sector. Article 5 designates AESIA as market
+surveillance authority for prohibited practices under Article 5(1), points (a),
+(b), (c) and (f) of Regulation (EU) 2024/1689 — not for the other points — and
+for the Annex III biometrics category at point 1(c), but only where the systems
+are not used in migration, asylum and border control management, or for law
+enforcement and the administration of justice. The same Annex III entry therefore
+falls to different authorities depending on the context of deployment. Allocation
+is by provision and by use, not by domain.
+
+The bill also answers a question the division creates. For cases not expressly
+covered, and for new areas of supervision arising from delegated acts or
+amendments to the Regulation, the Consejo de Ministros designates the authority
+by agreement; **AESIA is competent by default until it does**. A residual
+supervisor, and a mechanism for assigning new ones as the Regulation changes.
+
+This register records `bearer` — who owes the duty. It records nothing about who
+enforces it, and where enforcement is allocated by provision and by use, with a
+residual authority behind it, that is a material omission. A `supervised_by`
+field is planned for v0.2.0.
+
+**And nothing records what breach costs.** Article 28 makes it a minor infraction
+for a deployer to fail to request authorisation for post-remote biometric
+identification under Article 26(10) of the Regulation — a national sanction
+attached to a procedural step in an EU instrument. The register decomposes a duty
+into what must be true before an action proceeds, what discharges it, what
+evidences it and who confirms it. It says nothing about what follows if none of
+that happens. Sanctions are a layer the schema does not have, and an obligation
+whose breach carries a minor administrative penalty is a different governance
+object from one carrying a fine of 7 per cent of worldwide turnover.
 
 **A permission with its conditions on the face of it.** Article 4a of Regulation
 (EU) 2024/1689, inserted by Regulation (EU) 2026/1744, permits providers of
@@ -289,18 +328,6 @@ The lesson generalises. Where a prohibition attaches liability to the absence of
 adequate safeguards rather than to the occurrence of the prohibited act alone, it
 becomes decomposable. Where it does not, the register has nothing to record but a
 duty and a hope.
-
-**Who supervises is not who owes.** The Spanish architecture divides market
-surveillance by domain: AESIA generally, but the Banco de España for
-creditworthiness, the AEPD for data and for migration and asylum systems, the
-CGPJ for AI in the administration of justice, the Junta Electoral Central for
-electoral processes, the Dirección General de Seguros, the CNMV for capital
-markets. One obligation, seven possible supervisors. The CES noted in Dictamen
-3/2026 that the risk of competence overlap between AESIA and the AEPD is
-particularly acute. This register records `bearer` — who owes the duty. It
-records nothing about who enforces it, and where enforcement is distributed by
-domain that is a material omission. A `supervised_by` field is planned for
-v0.2.0.
 
 **A note on what does not become an entry.** Hardware trusted environments —
 secure enclaves, hardware security modules, roots of trust — are almost never
