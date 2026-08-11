@@ -98,6 +98,12 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   compensation scaled to responsibility.
 - Collected the eight limitations the schema does not express, previously
   recorded separately, into a single section.
+- Verified the Spanish provisions against the Proyecto de Ley Orgánica as
+  published in the BOCG: the delegado de inteligencia artificial in the state
+  public sector; market surveillance allocated by provision and by use rather
+  than by sector, with AESIA competent by default until the Consejo de Ministros
+  designates otherwise; and a national sanction attached to a procedural step in
+  the Regulation, which the schema has no field to record.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
