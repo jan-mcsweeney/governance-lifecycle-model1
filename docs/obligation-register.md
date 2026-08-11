@@ -329,6 +329,35 @@ adequate safeguards rather than to the occurrence of the prohibited act alone, i
 becomes decomposable. Where it does not, the register has nothing to record but a
 duty and a hope.
 
+**An obligation with no defined discharge.** Article 4 of Regulation (EU)
+2024/1689, as replaced by Regulation (EU) 2026/1744, requires providers and
+deployers to take measures to support the development of AI literacy of their
+staff and of other persons dealing with the operation and use of AI systems on
+their behalf — taking into account technical knowledge, experience, education and
+training, the context of use, and the persons on whom the systems are to be used.
+It then states that the obligation *does not require providers or deployers to
+guarantee any specific level of AI literacy of any individual*.
+
+So the duty binds, and its discharge is expressly not measurable against any
+standard. There is no threshold to meet, no state of affairs to bring about, and
+the provision forecloses the obvious test. What remains is the taking of
+measures, judged against the listed considerations.
+
+Two things follow for an entry. The evidence is of *effort* rather than of
+outcome: what was assessed, what was provided, to whom, and why it was
+proportionate to the considerations the article lists. And the reach of the duty
+extends beyond staff to other persons dealing with the operation and use of
+systems on the organisation's behalf — contractors, which is a `bearer` question
+in a provision that does not otherwise raise one.
+
+The article also runs the other way. Paragraph 2 obliges the Commission and
+Member States to support and facilitate those efforts, in particular for SMEs,
+with the Commission to publish practical examples on the single information
+platform. Paragraph 3 has the Board adopt recommendations taking European
+competence frameworks into account. An obligation on organisations, with a
+supporting obligation on institutions attached to it — a structure the register
+has no way to record, since an entry has one bearer.
+
 **A note on what does not become an entry.** Hardware trusted environments —
 secure enclaves, hardware security modules, roots of trust — are almost never
 obligations. They are controls discharging other duties, and they belong in
