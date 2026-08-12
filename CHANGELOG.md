@@ -104,6 +104,11 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   than by sector, with AESIA competent by default until the Consejo de Ministros
   designates otherwise; and a national sanction attached to a procedural step in
   the Regulation, which the schema has no field to record.
+- Recorded the Australian Protective Security Policy Framework as an instance of
+  an instrument voluntary in form and binding in effect: Release 2026 binds
+  non-corporate Commonwealth entities by ministerial direction under the PGPA
+  Act, represents better practice for others, and elevates voluntary standards
+  by listing them within a mandatory framework.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
