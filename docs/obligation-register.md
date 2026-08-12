@@ -181,12 +181,19 @@ relationships of the kind this register exists to record.
 
 Italy legislated. Legge 23 settembre 2025, n. 132 sets out principles on the
 research, experimentation, development, adoption and application of AI systems
-and models, and provides at Article 1(2) that its provisions are to be
-interpreted and applied in conformity with Regulation (EU) 2024/1689. Not a
-national law occupying ground the Regulation vacates, but one expressly
-subordinated to it in interpretation.
+and models. Two provisions fix its relationship to the Regulation. Article 1(2)
+is an express conformity clause: the law's provisions are to be interpreted and
+applied in conformity with Regulation (EU) 2024/1689 — a direction on how to read
+the national text, not a statement of hierarchy, since primacy already governs
+where the Regulation applies. Article 3(5) goes further: the law *non produce
+nuovi obblighi* relative to those under the Regulation for AI systems and for
+general-purpose AI models.
 
-Three provisions show what a Member State does with the space that leaves.
+So Italy has legislated around the Regulation without adding to what it requires
+of AI systems. The provisions that follow bind professionals, authors and the
+Government — not providers or deployers in that capacity.
+
+Three provisions follow:
 
 Article 13 restricts use before it requires disclosure. Paragraph 1 confines the
 use of AI systems in the intellectual professions to instrumental and supporting
