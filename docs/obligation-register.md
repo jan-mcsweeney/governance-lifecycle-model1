@@ -268,9 +268,11 @@ identification under Article 26(10) of the Regulation — a national sanction
 attached to a procedural step in an EU instrument. The register decomposes a duty
 into what must be true before an action proceeds, what discharges it, what
 evidences it and who confirms it. It says nothing about what follows if none of
-that happens. Sanctions are a layer the schema does not have, and an obligation
-whose breach carries a minor administrative penalty is a different governance
-object from one carrying a fine of 7 per cent of worldwide turnover.
+that happens. Sanctions are a layer the schema does not have. An obligation whose 
+breach carries a minor administrative penalty — under Article 30 of the bill, up 
+to €500,000 or 0.5 per cent of total worldwide turnover, whichever is higher — is 
+a different governance object from one in the highest tier, at €35,000,000 or 7 
+per cent. Four bands, and the register cannot distinguish them.
 
 **A permission with its conditions on the face of it.** Article 4a of Regulation
 (EU) 2024/1689, inserted by Regulation (EU) 2026/1744, permits providers of
