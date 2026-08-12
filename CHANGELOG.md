@@ -109,6 +109,11 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   non-corporate Commonwealth entities by ministerial direction under the PGPA
   Act, represents better practice for others, and elevates voluntary standards
   by listing them within a mandatory framework.
+- Refined the Italian material: Article 1(2) characterised as an express
+  conformity clause rather than a subordination, since primacy already governs
+  where the Regulation applies; and Article 3(5) added, by which the law produces
+  no new obligations relative to the Regulation for AI systems and general-purpose
+  AI models.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
