@@ -114,6 +114,9 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   where the Regulation applies; and Article 3(5) added, by which the law produces
   no new obligations relative to the Regulation for AI systems and general-purpose
   AI models.
+- Spain corrected the EU Article 4a description: paragraph 2 identifies providers and
+  deployers of other AI systems and models, and deployers of high-risk systems,
+  and imports all the conditions and safeguards of paragraph 1.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
