@@ -275,9 +275,11 @@ object from one carrying a fine of 7 per cent of worldwide turnover.
 **A permission with its conditions on the face of it.** Article 4a of Regulation
 (EU) 2024/1689, inserted by Regulation (EU) 2026/1744, permits providers of
 high-risk AI systems to process special categories of personal data where
-strictly necessary for bias detection and correction, and permits others to do so
-where bias is likely to affect health and safety, negatively affect fundamental
-rights, or lead to discrimination prohibited under Union law. Like Article 59 on
+strictly necessary for bias detection and correction, and permits providers and 
+deployers of other AI systems and models, and deployers of high-risk systems, to 
+do so where bias is likely to affect health and safety, negatively affect fundamental 
+rights, or lead to discrimination prohibited under Union law — subject, in that case, 
+to all the conditions and safeguards set out in paragraph 1. Like Article 59 on
 regulatory sandboxes, the permission is expressly *in addition to* the provisions
 of Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680: an
 AI Act permission that does not displace data protection law but sits on top of
