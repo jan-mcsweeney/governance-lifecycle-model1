@@ -295,6 +295,37 @@ unspecified is worth noticing.
 The provision closes by stating that it creates no obligation to conduct bias
 detection and correction at all.
 
+**Policy that binds, and standards that are elevated by it.** The limitation
+above — an instrument voluntary in form and binding in effect — has a clear
+instance outside the EU, and one where the mechanism is stated on the face of
+the instrument.
+
+The Australian Protective Security Policy Framework is not legislation. Release
+2026 opens with a direction from the responsible Minister to Accountable
+Authorities of non-corporate Commonwealth entities subject to the Public
+Governance, Performance and Accountability Act 2013, to comply with the
+framework. The binding force runs through the PGPA Act and ministerial direction;
+the requirements themselves are policy. For corporate Commonwealth entities and
+wholly-owned Commonwealth companies the framework represents better practice.
+State and territory agencies apply it when holding Commonwealth-classified
+material. One instrument, three characters, depending on who reads it — which
+neither `status` nor `bearer` can express.
+
+Inside it, a second elevation. The framework lists Australia's voluntary AI
+safety standard as a Standard and Australian Signals Directorate material as
+Guidance. Neither binds in its own right. Both sit within a framework whose
+requirements are mandatory for the entities the direction reaches, and are to be
+considered or applied accordingly. A voluntary instrument does not become
+mandatory by being listed, but it stops being merely voluntary for those to whom
+the listing applies.
+
+That is the EUCS pattern arriving by a different route. There, a certification
+scheme voluntary in form is required through other instruments and through
+procurement. Here the elevation happens inside a single national framework: a
+standard nobody must adopt, referenced by a policy everyone in scope must comply
+with. The register can record the framework, and it can record the standard. It
+cannot record that the second changes character by appearing in the first.
+
 **A prohibition, evidenced.** A register built around duties to do things handles
 duties *not* to do them poorly, because compliance is evidenced by absence and an
 absence is not a record. Article 5 of Regulation (EU) 2024/1689, as amended by
