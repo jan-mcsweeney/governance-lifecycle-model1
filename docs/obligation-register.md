@@ -421,11 +421,7 @@ cybersecurity posture at three assurance levels. It is not a duty; nobody is in
 breach for lacking certification. It is a means of demonstrating that controls
 are in place, which belongs in `assurance_activities`.
 
-This case is harder than the hardware one, and worth stating for that reason. The scheme is formally voluntary, but Article 24 of Directive (EU) 2022/2555 permits Member States to require essential and important entities to use ICT products, services and processes certified under schemes adopted pursuant to Article 49 of Regulation (EU) 2019/881, and empowers the Commission to specify by delegated act which categories must do so. Procurement may require certification independently. A search of Regulation (EU) 2023/2854 returns no reference to Regulation (EU) 2019/881; the Data Act creates no such pathway, and an earlier version of this note said otherwise. Member States may add national criteria — France through
-SecNumCloud, Germany through BSI C5 — so the effective requirement varies within
-a scheme designed to harmonise. Voluntary in form and binding in effect is a
-condition this register's `status` vocabulary cannot express, and `advisory` does
-not reach it.
+This case is harder than the hardware one, and worth stating for that reason. The scheme is formally voluntary, but Article 24 of Directive (EU) 2022/2555 permits Member States to require essential and important entities to use ICT products, services and processes certified under schemes adopted pursuant to Article 49 of Regulation (EU) 2019/881, and empowers the Commission to specify by delegated act which categories must do so. Procurement may require certification independently. A search of Regulation (EU) 2023/2854 returns no reference to Regulation (EU) 2019/881; the Data Act creates no such pathway, and an earlier version of this note said otherwise. Member States may add national criteria: the French SecNumCloud qualification carries, at version 3.2, a requirement of extra-European immunity — the criterion the EU scheme's later drafts are reported to have dropped. The effective requirement therefore varies within a scheme designed to harmonise.
 
 **Agreed is not enacted.** Between a political agreement and publication in the
 official gazette there is a real interval, and during it commentary, official
