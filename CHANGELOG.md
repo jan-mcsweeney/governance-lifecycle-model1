@@ -145,6 +145,11 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   institutions to make compliance achievable. Neither is a `bearer` problem: the
   first needs a way to record whom a duty reaches, the second a nature in
   `depends_on` for a duty that supports another. Ten limitations.
+- Corrected the EUCS certification pathways: Article 24 of Directive (EU)
+  2022/2555 permits Member States to require use of certified products and
+  services, and empowers the Commission to specify categories by delegated act.
+  Regulation (EU) 2023/2854 contains no reference to Regulation (EU) 2019/881, so
+  the Data Act creates no such pathway. The earlier note said otherwise.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
