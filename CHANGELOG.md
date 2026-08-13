@@ -139,6 +139,12 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   that may follow AFNOR's frugal AI reference — together with article L. 311-3-1
   of the Code des relations entre le public et l'administration as a fifth
   converging instrument, and a fifth cognitive bias drawn from the 2022 study.
+- Separated reach from bearer, and support from constraint. Article 4 of
+  Regulation (EU) 2024/1689 directs measures at persons who owe nothing, and
+  pairs an obligation on providers and deployers with obligations on
+  institutions to make compliance achievable. Neither is a `bearer` problem: the
+  first needs a way to record whom a duty reaches, the second a nature in
+  `depends_on` for a duty that supports another. Ten limitations.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
