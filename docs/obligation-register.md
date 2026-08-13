@@ -387,18 +387,25 @@ measures, judged against the listed considerations.
 
 Two things follow for an entry. The evidence is of *effort* rather than of
 outcome: what was assessed, what was provided, to whom, and why it was
-proportionate to the considerations the article lists. And the reach of the duty
-extends beyond staff to other persons dealing with the operation and use of
-systems on the organisation's behalf — contractors, which is a `bearer` question
-in a provision that does not otherwise raise one.
+proportionate to the considerations the article lists. And the duty reaches
+beyond staff to other persons dealing with the operation and use of systems on
+the organisation's behalf — contractors among them.
+
+That second point is about reach, not about who owes. Those persons are the
+object of the measures, not duty-holders: nobody is obliged to become literate,
+and the provider is obliged to take measures directed at them. The register
+records `bearer` — who owes. It records nothing about whom a duty reaches, and
+where the reach determines what the measures must cover, that is a distinct
+omission.
 
 The article also runs the other way. Paragraph 2 obliges the Commission and
 Member States to support and facilitate those efforts, in particular for SMEs,
 with the Commission to publish practical examples on the single information
 platform. Paragraph 3 has the Board adopt recommendations taking European
-competence frameworks into account. An obligation on organisations, with a
-supporting obligation on institutions attached to it — a structure the register
-has no way to record, since an entry has one bearer.
+competence frameworks into account. Three obligations with three obligors, which
+the register can hold as three entries. What it cannot hold is the relationship:
+`depends_on` records constraint — *mitigation gated by*, *evidence relies on* —
+and has no nature for a duty that exists to make another achievable.
 
 **A note on what does not become an entry.** Hardware trusted environments —
 secure enclaves, hardware security modules, roots of trust — are almost never
@@ -582,7 +589,7 @@ are looking at.
 
 ## What the schema does not express
 
-Eight limitations, each found by putting the model against an instrument becomes 
+Ten limitations, each found by putting the model against an instrument becomes 
 Nine limitations. They are listed together because the pattern is worth seeing: 
 most concern what surrounds an obligation — who enforces it, how it
 has been read, what a control actually covers, what breach costs — rather than
@@ -639,12 +646,21 @@ it. It says nothing about what follows if none of that happens. An obligation
 whose breach carries a minor administrative penalty is a different governance
 object from one carrying a fine of seven per cent of worldwide turnover.
 
-**9. Obligations that pair.** An entry has one bearer. Article 4 of Regulation
-(EU) 2024/1689 imposes a duty on providers and deployers and, in the same
-article, a supporting duty on the Commission and Member States to facilitate
-compliance with it. The two are connected — one exists to make the other
-achievable — and the register can record them only as separate entries with no
-relationship between them. `depends_on` records constraint, not support.
+**9. Whom a duty reaches.** `bearer` records who owes an obligation. Article 4 of
+Regulation (EU) 2024/1689 obliges providers and deployers to take measures
+directed at their staff and at other persons dealing with the operation and use
+of systems on their behalf. Those persons owe nothing; they are the object of the
+measures. Where the reach of a duty determines what discharging it requires, the
+register has no way to record it.
+
+**10. Duties that support other duties.** `depends_on` records constraint —
+*mitigation gated by*, *evidence relies on*, *control shared with*, *scope
+determined by*. It has no nature for a duty that exists to make another
+achievable. Article 4 pairs an obligation on providers and deployers with
+obligations on the Commission, the Member States and the Board to support and
+facilitate compliance with it. These are distinct obligations with distinct
+obligors, and the register can hold them as separate entries; what it cannot hold
+is that one exists for the sake of another.
 
 ## A caution
 
