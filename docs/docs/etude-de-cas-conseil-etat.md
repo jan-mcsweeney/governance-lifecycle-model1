@@ -141,12 +141,22 @@ charte éthique de la Commission européenne pour l'efficacité de la justice
 Son contenu juridique vient d'ailleurs : règlement européen, RGPD, loi de 1978,
 code de justice administrative. Ces textes obligent indépendamment d'elle.
 
+S'y ajoute une troisième couche, interne elle aussi et antérieure. La charte se
+présente comme un cadre déontologique posé *en complément* des textes juridiques
+encadrant l'usage de l'IA et de deux instruments propres à la juridiction : la
+charte de déontologie et la charte informatique des juridictions administratives.
+Ces textes comportaient déjà des principes applicables à l'usage des outils
+informatiques par les personnels. La juridiction relève en outre une pratique
+établie de protection des droits fondamentaux — l'anonymisation des décisions de
+justice rendues publiques dans le cadre de l'open data.
+
 Un instrument interne qui oblige ceux auxquels il s'applique tire donc sa
 structure normative d'une étude administrative et d'une charte éthique
-internationale, et son contenu contraignant d'instruments qui s'imposent par
-eux-mêmes. Le registre peut enregistrer les seconds. Il n'a aucun moyen
-d'enregistrer les premiers, ni de dire qu'un instrument obligatoire peut être
-charpenté par des textes qui ne le sont pas.
+internationale, s'inscrit dans la continuité de deux instruments internes
+antérieurs, et tire son contenu contraignant de textes qui s'imposent par
+eux-mêmes. Le registre peut enregistrer les textes contraignants. Il n'a aucun
+moyen d'enregistrer les autres, ni de dire qu'un instrument obligatoire peut être
+charpenté par des sources qui ne le sont pas.
 
 ## La transparence, portée à trois niveaux
 
