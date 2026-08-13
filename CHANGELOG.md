@@ -150,6 +150,13 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   services, and empowers the Commission to specify categories by delegated act.
   Regulation (EU) 2023/2854 contains no reference to Regulation (EU) 2019/881, so
   the Data Act creates no such pathway. The earlier note said otherwise.
+- Corrected the EUCS certification pathways: Article 24 of Directive (EU)
+  2022/2555 permits Member States to require use of certified products and
+  services, and empowers the Commission to specify categories by delegated act.
+  Regulation (EU) 2023/2854 contains no reference to Regulation (EU) 2019/881, so
+  the Data Act creates no such pathway. Verified the French national criterion:
+  SecNumCloud at version 3.2 requires extra-European immunity. BSI C5 removed
+  pending verification.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
