@@ -113,15 +113,41 @@ les rend néanmoins obligatoires pour les travaux de développement de la
 juridiction. C'est la troisième occurrence, dans ce dépôt, d'un instrument
 volontaire par sa forme et contraignant par son effet.
 
+## Deux lignées dans un même instrument
+
+La charte indique elle-même d'où elle procède, et les sources sont de deux ordres
+distincts.
+
+Ses principes viennent d'une étude. Les sept principes pour une IA de confiance —
+primauté humaine, performance, équité et non-discrimination, transparence, sûreté,
+soutenabilité environnementale et autonomie stratégique — sont énoncés dans
+l'étude *Intelligence artificielle et action publique*, remise par le Conseil
+d'État au Premier ministre en août 2022. La charte s'appuie en outre sur la
+charte éthique de la Commission européenne pour l'efficacité de la justice
+(CEPEJ) du Conseil de l'Europe. Ni l'une ni l'autre n'oblige quiconque.
+
+Son contenu juridique vient d'ailleurs : règlement européen, RGPD, loi de 1978,
+code de justice administrative. Ces textes obligent indépendamment d'elle.
+
+Un instrument interne qui oblige ceux auxquels il s'applique tire donc sa
+structure normative d'une étude administrative et d'une charte éthique
+internationale, et son contenu contraignant d'instruments qui s'imposent par
+eux-mêmes. Le registre peut enregistrer les seconds. Il n'a aucun moyen
+d'enregistrer les premiers, ni de dire qu'un instrument obligatoire peut être
+charpenté par des textes qui ne le sont pas.
+
 ## Ce que l'étude de cas apporte au modèle
 
-Quartre éléments que le schéma actuel n'exprime pas :
+Cinq éléments que le schéma actuel n'exprime pas :
 
 1. Un statut d'instrument interne, obligatoire sans être législatif.
 2. Un test de nécessité antérieur à la porte d'admissibilité.
 3. La superposition délibérée de contrôles autour d'un contrôle réputé faible.
 4. L'élévation d'un référentiel volontaire au rang d'exigence par un instrument
    interne.
+5. L'adossement d'un instrument obligatoire à des sources non contraignantes —
+   une étude administrative et une charte éthique internationale — pour sa
+   structure de principes.
 
 ---
 
