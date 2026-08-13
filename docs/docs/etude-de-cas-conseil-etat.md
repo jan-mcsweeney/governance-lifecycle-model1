@@ -92,13 +92,36 @@ interdiction : aucun document couvert par un secret ne doit être versé dans un
 système externe. Ni mémoire, ni pièce de dossier contentieux, ni note de
 rapporteur, ni projet de décision. Seules des informations publiques.
 
+## Souveraineté, portée comme exigence de développement
+
+Le principe d'autonomie stratégique s'applique aux systèmes que la juridiction
+développe elle-même. Tout SIA ainsi développé doit présenter des garanties de
+souveraineté, de sécurité et de protection des données, avec une attention
+particulière portée à la localisation des serveurs hébergeant les données, au
+choix du modèle de langage, et aux modalités d'un éventuel recours à des
+solutions gérées par le secteur privé.
+
+Trois questions, donc — hébergement, modèle, dépendance au secteur privé — qui
+sont exactement celles autour desquelles s'est cristallisé le débat sur le schéma
+européen de certification des services en nuage. Ici elles sont tranchées non par
+une certification mais par un instrument interne.
+
+La charte ajoute que ce développement devra être conforme aux recommandations de
+sécurité de l'ANSSI. Ces recommandations ne sont pas normatives : elles sont
+livrées en l'état, sauf disposition réglementaire contraire. Une charte interne
+les rend néanmoins obligatoires pour les travaux de développement de la
+juridiction. C'est la troisième occurrence, dans ce dépôt, d'un instrument
+volontaire par sa forme et contraignant par son effet.
+
 ## Ce que l'étude de cas apporte au modèle
 
-Trois éléments que le schéma actuel n'exprime pas :
+Quartre éléments que le schéma actuel n'exprime pas :
 
 1. Un statut d'instrument interne, obligatoire sans être législatif.
 2. Un test de nécessité antérieur à la porte d'admissibilité.
 3. La superposition délibérée de contrôles autour d'un contrôle réputé faible.
+4. L'élévation d'un référentiel volontaire au rang d'exigence par un instrument
+   interne.
 
 ---
 
