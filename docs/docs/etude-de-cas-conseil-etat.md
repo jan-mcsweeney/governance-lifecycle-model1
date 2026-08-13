@@ -139,9 +139,38 @@ eux-mêmes. Le registre peut enregistrer les seconds. Il n'a aucun moyen
 d'enregistrer les premiers, ni de dire qu'un instrument obligatoire peut être
 charpenté par des textes qui ne le sont pas.
 
+## La transparence, portée à trois niveaux
+
+Le principe de transparence est le plus opérationnel des sept, et il se décline
+en trois engagements de nature différente.
+
+Le premier porte sur le parc lui-même. La juridiction s'engage à faire connaître
+publiquement quels SIA elle a développés, pour quels usages et avec quelles
+garanties de contrôle humain. Il ne s'agit pas d'une information délivrée au
+point d'interaction, mais d'un inventaire publié.
+
+Le deuxième est un droit d'accès. Tout SIA développé par la juridiction devra
+prévoir un droit d'accès des tiers à la documentation du système, une
+auditabilité du système et son explicabilité, dans le respect des textes
+applicables et notamment du RIA, à l'exclusion de tout document couvert par un
+secret. Un droit opposable à ses propres systèmes, inscrit dès la conception, par
+un instrument interne et non par la loi.
+
+Le troisième est conditionnel. Dans l'hypothèse où l'IA serait un jour utilisée
+dans des documents administratifs adressés aux usagers du service public de la
+justice — courriers, courriels, certificats de non-recours — il conviendrait de
+prévoir une information de son utilisation, précisant aussi simplement que
+possible comment l'IA a été utilisée et que le contenu a été vérifié par un
+humain.
+
+Une obligation définie avant que la pratique qu'elle vise n'existe. Le registre
+enregistre des obligations en vigueur, des obligations différées et des
+obligations conditionnées à un événement. Il n'a pas de moyen d'enregistrer une
+obligation posée par anticipation pour une pratique qui n'a pas encore cours.
+
 ## Ce que l'étude de cas apporte au modèle
 
-Cinq éléments que le schéma actuel n'exprime pas :
+Six éléments que le schéma actuel n'exprime pas :
 
 1. Un statut d'instrument interne, obligatoire sans être législatif.
 2. Un test de nécessité antérieur à la porte d'admissibilité.
@@ -151,6 +180,8 @@ Cinq éléments que le schéma actuel n'exprime pas :
 5. L'adossement d'un instrument obligatoire à des sources non contraignantes —
    une étude administrative et une charte éthique internationale — pour sa
    structure de principes.
+6. Une obligation de transparence posée par anticipation, pour une pratique que
+   la juridiction n'a pas encore adoptée.
 
 ---
 
