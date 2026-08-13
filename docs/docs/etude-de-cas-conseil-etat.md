@@ -47,8 +47,9 @@ pose pas son propre principe. Elle superpose quatre instruments qui convergent :
 | RGPD, art. 22 | Droit de ne pas faire l'objet d'une décision fondée exclusivement sur un traitement automatisé produisant des effets juridiques |
 | Loi informatique et libertés du 6 janvier 1978, art. 47 | Aucune décision de justice impliquant une appréciation sur le comportement d'une personne ne peut avoir pour fondement un traitement automatisé destiné à évaluer certains aspects de sa personnalité |
 | Code de justice administrative, art. L. 131-2 et L. 231-1-1, et charte de déontologie | Exercice des fonctions de manière impartiale et en toute indépendance |
+| Code des relations entre le public et l'administration, art. L. 311-3-1 | Une décision individuelle prise sur le fondement d'un traitement algorithmique comporte une mention explicite en informant l'intéressé |
 
-Quatre instruments, de rangs et de logiques différents — deux règlements
+Cinq instruments, de rangs et de logiques différents — deux règlements
 européens, une loi française, un code — décomposés en une exigence unique et
 opérationnelle. C'est précisément l'opération que le registre d'obligations
 cherche à formaliser.
@@ -76,6 +77,14 @@ L'exemple donné par la charte décompose la vérification en quatre étapes
 distinctes : l'existence des décisions citées, leur portée réelle, l'absence
 d'omission de la décision la plus importante, et la hiérarchisation correcte
 des autorités.
+
+L'étude de 2022 dont la charte tire ses principes met en garde contre un
+cinquième biais, plus général : celui qui tend à déduire la prétendue supériorité
+générale de la machine sur l'humain de la seule circonstance que la première
+accomplit certaines fonctions spécifiques avec une performance supérieure. Au
+regard de l'éventail des actions qu'un humain peut réaliser — bon sens, capacité
+d'adaptation, émotions, humour, qualités relationnelles — l'étude juge que les
+systèmes d'IA « font toujours pâle figure ».
 
 ## Un test de nécessité, en amont de tout
 
@@ -168,9 +177,27 @@ enregistre des obligations en vigueur, des obligations différées et des
 obligations conditionnées à un événement. Il n'a pas de moyen d'enregistrer une
 obligation posée par anticipation pour une pratique qui n'a pas encore cours.
 
+## Un seuil de passage à l'échelle
+
+Le principe de performance et durabilité pose une condition non pas sur l'action,
+mais sur l'outil. Le développement d'outils d'IA par la juridiction repose sur
+une logique d'expérimentation et d'évaluation, et seuls les outils présentant un
+bénéfice attendu pour les usagers et les personnels supérieur aux coûts humains,
+financiers et environnementaux ainsi qu'aux risques de sécurité devraient passer
+à l'échelle.
+
+Quatre catégories de coût pesées ensemble contre un bénéfice attendu, avant qu'un
+outil ne quitte l'expérimentation. Ce n'est pas la porte d'admissibilité, qui
+autorise une action ; c'est un seuil antérieur, qui décide si l'outil existera.
+
+La charte ajoute que tout déploiement s'accompagnera d'une évaluation
+environnementale, laquelle pourra être conduite en application du référentiel
+général pour l'IA frugale de l'AFNOR. Un référentiel volontaire de plus, rendu
+opératoire par un instrument interne.
+
 ## Ce que l'étude de cas apporte au modèle
 
-Six éléments que le schéma actuel n'exprime pas :
+Sept éléments que le schéma actuel n'exprime pas :
 
 1. Un statut d'instrument interne, obligatoire sans être législatif.
 2. Un test de nécessité antérieur à la porte d'admissibilité.
@@ -182,6 +209,9 @@ Six éléments que le schéma actuel n'exprime pas :
    structure de principes.
 6. Une obligation de transparence posée par anticipation, pour une pratique que
    la juridiction n'a pas encore adoptée.
+7. Un seuil de passage à l'échelle, distinct de la porte d'admissibilité :
+   quatre catégories de coût pesées contre un bénéfice attendu avant qu'un outil
+   ne sorte de l'expérimentation.
 
 ---
 
