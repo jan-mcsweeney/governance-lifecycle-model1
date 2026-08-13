@@ -133,6 +133,12 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   three levels — a published inventory of systems developed, third-party rights
   of access, auditability and explicability in those systems, and a conditional
   disclosure duty posed in advance of the practice it addresses.
+- Added a seventh feature to the Conseil d'État case study — a scaling threshold
+  weighing expected benefit against human, financial, environmental and security
+  costs before a tool leaves experimentation, with an environmental evaluation
+  that may follow AFNOR's frugal AI reference — together with article L. 311-3-1
+  of the Code des relations entre le public et l'administration as a fifth
+  converging instrument, and a fifth cognitive bias drawn from the 2022 study.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
