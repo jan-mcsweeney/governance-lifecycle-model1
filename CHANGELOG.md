@@ -126,6 +126,13 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   choice of language model and reliance on privately managed solutions — and to
   conform to ANSSI's security recommendations, which are non-normative in
   themselves.
+- Added a fifth and sixth feature to the Conseil d'État case study: the charter's
+  structure of principles derives from a 2022 Conseil d'État study and the CEPEJ
+  ethical charter, neither of which binds, while its legal content comes from
+  instruments that bind independently; and its transparency principle operates at
+  three levels — a published inventory of systems developed, third-party rights
+  of access, auditability and explicability in those systems, and a conditional
+  disclosure duty posed in advance of the practice it addresses.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
