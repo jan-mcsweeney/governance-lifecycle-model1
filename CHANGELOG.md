@@ -120,6 +120,12 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
 - Priced the sanctions tiers from Article 30 of the Spanish bill: four bands,
   from €500,000 or 0.5 per cent of worldwide turnover for minor infractions to
   €35,000,000 or 7 per cent at the highest tier.
+- Added a fourth feature to the Conseil d'État case study: the strategic autonomy
+  principle requires systems the jurisdiction develops itself to guarantee
+  sovereignty, security and data protection — with attention to server location,
+  choice of language model and reliance on privately managed solutions — and to
+  conform to ANSSI's security recommendations, which are non-normative in
+  themselves.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
