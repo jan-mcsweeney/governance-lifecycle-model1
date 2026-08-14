@@ -38,6 +38,11 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
 - Cross-entry dependencies (`depends_on`) with an UNRESOLVED coverage finding,
   and a worked dependency from EU AI Act Article 50(2) marking to the
   cryptographic migration entry.
+- Added a section on sovereignty as four different requirements: a development
+  requirement in the Conseil d'État charter, immunity from foreign process in
+  SecNumCloud 3.2, data residency by contract in the German C5 catalogue —
+  described there as a prerequisite for technical service sovereignty rather than
+  as sovereignty itself — and unresolved in the EU cloud services scheme.
 
 ### Changed
 - Article 50 entries cite Regulation (EU) 2024/1689 as amended by Regulation
