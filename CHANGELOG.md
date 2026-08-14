@@ -162,6 +162,12 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   the Data Act creates no such pathway. Verified the French national criterion:
   SecNumCloud at version 3.2 requires extra-European immunity. BSI C5 removed
   pending verification.
+- Verified NIS2 Article 24 against the Official Journal text, adding the
+  conditions on the Commission's delegated-act power, the duty on Member States
+  to encourage use of qualified trust services, and Article 24(3), under which
+  the Commission may request ENISA to prepare a candidate scheme — the provision
+  the cloud services scheme was prepared under, and which has not been followed
+  by adoption under Article 49.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
