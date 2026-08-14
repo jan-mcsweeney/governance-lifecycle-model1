@@ -175,6 +175,8 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   the Commission may request ENISA to prepare a candidate scheme — the provision
   the cloud services scheme was prepared under, and which has not been followed
   by adoption under Article 49.
+- Cited the German C5 catalogue by version: BSI, Cloud Computing Compliance
+  Criteria Catalogue (C5:2026), version 1.0.1.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
