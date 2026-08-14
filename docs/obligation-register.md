@@ -499,13 +499,15 @@ immunity, addressed to the provider's exposure to third-country law rather than
 to where the data sits. A CNIL deliberation of July 2023 records that a single
 health-data host then held that qualification.
 
-The German C5 catalogue treats it as **data residency by contract**. Its
-criterion requires contractual agreements committing customer data, derived data,
-provider data and account data to reside in the chosen region, with provisions
-for how those agreements are updated and residency maintained. It does not
-require a provider to offer multiple regions, and a single-partition provider is
-not in deviation. The catalogue then says what the criterion is: *a prerequisite
-for technical service sovereignty* — not sovereignty, a precondition of it.
+The German C5 catalogue — BSI, *Cloud Computing Compliance Criteria Catalogue* 
+(C5:2026), version 1.0.1, supplementary information, p. 222 — treats it as **data 
+residency by contract**. Its criterion requires contractual agreements committing 
+customer data, derived data, provider data and account data to reside in the 
+chosen region, with provisions for how those agreements are updated and residency 
+maintained. It does not require a provider to offer multiple regions, and a 
+single-partition provider is not in deviation. The catalogue then says what the 
+criterion is: *a prerequisitefor technical service sovereignty* — not sovereignty, 
+a precondition of it.
 
 The EU scheme treats it as **unresolved**. Sovereignty criteria appeared in
 drafts of the cloud services certification scheme and are reported to have been
