@@ -421,7 +421,55 @@ cybersecurity posture at three assurance levels. It is not a duty; nobody is in
 breach for lacking certification. It is a means of demonstrating that controls
 are in place, which belongs in `assurance_activities`.
 
-This case is harder than the hardware one, and worth stating for that reason. The scheme is formally voluntary, but Article 24 of Directive (EU) 2022/2555 permits Member States to require essential and important entities to use ICT products, services and processes certified under schemes adopted pursuant to Article 49 of Regulation (EU) 2019/881, and empowers the Commission to specify by delegated act which categories must do so. Procurement may require certification independently. A search of Regulation (EU) 2023/2854 returns no reference to Regulation (EU) 2019/881; the Data Act creates no such pathway, and an earlier version of this note said otherwise. Member States may add national criteria: the French SecNumCloud qualification carries, at version 3.2, a requirement of extra-European immunity — the criterion the EU scheme's later drafts are reported to have dropped. The effective requirement therefore varies within a scheme designed to harmonise.
+This case is harder than the hardware one, and worth stating for that reason. The 
+scheme is formally voluntary, but Article 24 of Directive (EU) 2022/2555 permits 
+Member States to require essential and important entities to use ICT products, 
+services and processes certified under schemes adopted pursuant to Article 49 of 
+Regulation (EU) 2019/881, and empowers the Commission to specify by delegated act 
+which categories must do so. Procurement may require certification independently. 
+A search of Regulation (EU) 2023/2854 returns no reference to Regulation (EU) 
+2019/881; the Data Act creates no such pathway, and an earlier version of this 
+note said otherwise. Member States may add national criteria: the French SecNumCloud 
+qualification carries, at version 3.2, a requirement of extra-European immunity — 
+the criterion the EU scheme's later drafts are reported to have dropped. The 
+effective requirement therefore varies within a scheme designed to harmonise.
+
+**Sovereignty is not one requirement.** The word appears across several
+instruments in this register, and it does not mean the same thing in any two of
+them. Recording that a control delivers sovereignty would record almost nothing.
+
+The Conseil d'État's charter treats it as a **development requirement**. Systems
+the jurisdiction builds must present guarantees of sovereignty, security and data
+protection, with particular attention to the location of servers hosting the
+data, the choice of language model, and the terms of any recourse to privately
+managed solutions. Three components, none of which is reducible to the others.
+
+The French SecNumCloud qualification treats it as **immunity from foreign
+process**. At version 3.2 the referential carries a requirement of extra-European
+immunity, addressed to the provider's exposure to third-country law rather than
+to where the data sits. A CNIL deliberation of July 2023 records that a single
+health-data host then held that qualification.
+
+The German C5 catalogue treats it as **data residency by contract**. Its
+criterion requires contractual agreements committing customer data, derived data,
+provider data and account data to reside in the chosen region, with provisions
+for how those agreements are updated and residency maintained. It does not
+require a provider to offer multiple regions, and a single-partition provider is
+not in deviation. The catalogue then says what the criterion is: *a prerequisite
+for technical service sovereignty* — not sovereignty, a precondition of it.
+
+The EU scheme treats it as **unresolved**. Sovereignty criteria appeared in
+drafts of the cloud services certification scheme and are reported to have been
+removed in later drafts that were never officially published. No final scheme has
+issued.
+
+Four positions. A control described as delivering sovereignty may deliver hosting
+location without delivering immunity from foreign process; may deliver a
+contractual undertaking without delivering either; or may deliver nothing, the
+criterion having been dropped. The German catalogue is the most careful of the
+four precisely because it names what its own criterion does not achieve. That is
+the boundary point again: the guarantee is real, and it stops somewhere the word
+does not suggest.
 
 **Agreed is not enacted.** Between a political agreement and publication in the
 official gazette there is a real interval, and during it commentary, official
