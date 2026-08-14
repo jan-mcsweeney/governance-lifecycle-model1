@@ -422,11 +422,23 @@ breach for lacking certification. It is a means of demonstrating that controls
 are in place, which belongs in `assurance_activities`.
 
 This case is harder than the hardware one, and worth stating for that reason. The 
-scheme is formally voluntary, but Article 24 of Directive (EU) 2022/2555 permits 
-Member States to require essential and important entities to use ICT products, 
-services and processes certified under schemes adopted pursuant to Article 49 of 
-Regulation (EU) 2019/881, and empowers the Commission to specify by delegated act 
-which categories must do so. Procurement may require certification independently. 
+scheme is formally voluntary, and the pathway by which it could bind runs through 
+Article 24 of Directive (EU) 2022/2555. Member States may require essential and 
+important entities to use ICT products, services and processes certified under 
+schemes adopted pursuant to Article 49 of Regulation (EU) 2019/881, in order to 
+demonstrate compliance with particular requirements of Article 21; and shall 
+encourage those entities to use qualified trust services. The Commission is 
+empowered to specify by delegated act which categories of entity must use certified 
+products or obtain a certificate — but only where insufficient levels of 
+cybersecurity have been identified, preceded by an impact assessment and consultation, 
+and with an implementation period included. Where no appropriate scheme exists, the 
+Commission may request ENISA to prepare a candidate scheme under Article 48(2) of 
+the same Regulation.
+
+That last provision closes a circle. The cloud services scheme was prepared under 
+Article 48(2). It has not been adopted under Article 49. So the pathway is drafted, 
+the scheme it would run through exists as a candidate, and the step that would connect 
+them has not been taken. Procurement may require certification independently. 
 A search of Regulation (EU) 2023/2854 returns no reference to Regulation (EU) 
 2019/881; the Data Act creates no such pathway, and an earlier version of this 
 note said otherwise. Member States may add national criteria: the French SecNumCloud 
