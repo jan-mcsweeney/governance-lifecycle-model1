@@ -43,6 +43,13 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   SecNumCloud 3.2, data residency by contract in the German C5 catalogue —
   described there as a prerequisite for technical service sovereignty rather than
   as sovereignty itself — and unresolved in the EU cloud services scheme.
+- Added a section on the Australian arrangement: technology-neutral regulation
+  under the Privacy Act 1988 and its thirteen Australian Privacy Principles, with
+  non-binding OAIC guidance of October 2024 carrying the interpretive weight; the
+  DISR Voluntary AI Safety Standard and its ten guardrails; and a proposal paper on
+  mandatory guardrails consulted on. Recorded the standard's published claim that
+  compliance with it produces compliance with international laws, which
+  conformity with a management system standard cannot deliver.
 
 ### Changed
 - Article 50 entries cite Regulation (EU) 2024/1689 as amended by Regulation
