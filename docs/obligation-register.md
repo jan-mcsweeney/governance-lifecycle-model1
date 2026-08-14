@@ -274,6 +274,43 @@ to €500,000 or 0.5 per cent of total worldwide turnover, whichever is higher �
 a different governance object from one in the highest tier, at €35,000,000 or 7 
 per cent. Four bands, and the register cannot distinguish them.
 
+**Australia:** The Privacy Act 1988 and its thirteen Australian Privacy Principles apply to
+entities covered by the Act regardless of the technology used, so AI handling
+personal information falls within existing obligations without any provision
+addressed to it. That is technology-neutral regulation working as designed: the
+duty attaches to the handling, not to the tool. The Office of the Australian
+Information Commissioner published non-binding guidance in October 2024 on how
+those obligations bear on the use of commercially available AI products and on
+developing and training generative AI models. The statute is unchanged; the
+regulator has read it onto a new context and said so in writing.
+
+The Voluntary AI Safety Standard, published by the Department of Industry,
+Science and Resources (DISR), sets out ten guardrails applying across the AI supply
+chain, addressed to developers and deployers, with supporting tooling from the
+National AI Centre. A proposal paper on mandatory guardrails for high-risk
+settings has been consulted on.
+
+So the interpretive weight sits with a regulator's guidance and a voluntary
+standard, while legislation is discussed. For the register this is the
+`interpreted_by` gap in its clearest form: the Privacy Act's provisions are where
+the text sits, and the OAIC's guidance is where the reading is. An entry that
+cited only the statute would cite the least informative half.
+
+**And one claim in the DISR standard is worth recording.** Its published text states
+that the technical language used aligns with international standards, and that
+this means Australian businesses can be sure that if they comply with the 
+Voluntary AI Safety Standard, they will also comply with international laws.
+
+Compliance with a standard does not produce compliance with a statute. ISO/IEC
+42001:2023 is a management system standard; the EU AI Act's obligations are not
+discharged by operating a management system. A presumption of conformity is
+available under that Regulation through harmonised standards — but only once
+those standards are published and cited in the Official Journal, and as recorded
+in `lifecycle.md` none has been. A voluntary instrument described as delivering
+legal compliance it cannot deliver is the boundary problem stated by a government
+department about its own guidance.
+
+
 **A permission with its conditions on the face of it.** Article 4a of Regulation
 (EU) 2024/1689, inserted by Regulation (EU) 2026/1744, permits providers of
 high-risk AI systems to process special categories of personal data where
