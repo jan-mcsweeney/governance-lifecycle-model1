@@ -56,6 +56,9 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   or by the signature of the executive at any time — differences the schema
   cannot express. Also corrected the scope note: three of the eleven are additive
   fields planned for v0.2.0, the remainder deferred (to v0.3.0 - next Model2).
+- Added a pointer in the README to the eleven limitations, three of the eleven are 
+  additive fields in draft for v0.2.0 and named v0.3.0 as where the eight deferred 
+  limitations go.
 
 ### Changed
 - Article 50 entries cite Regulation (EU) 2024/1689 as amended by Regulation
