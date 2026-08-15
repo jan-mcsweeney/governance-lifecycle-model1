@@ -1,6 +1,6 @@
 # Governance Lifecycle, Issue-Scoring Engine and Obligation Register
 
-**Model 1** — a reference architecture for connecting governance to operations:
+**Model 1, v0.1.0** — a reference architecture for connecting governance to operations:
 a lifecycle with a pre-execution checkpoint, an engine that scores governance
 issues into priority tiers, and a register that decomposes legal duties into the
 stages that must carry them. Runnable, with worked examples and conformance
@@ -12,7 +12,9 @@ Ce dépôt est actuellement publié en langue anglaise.
 Son ambition est cependant internationale.
 Les futures évolutions pourront comprendre progressivement une documentation en français, avant une ouverture à d'autres langues.
 
-Les critères d'évaluation (rubric anchors) sont provisoires. L'observation la plus utile que vous puissiez adresser est la suivante : évaluez vous-même l'un des cinq exemples au regard du tableau des critères, et indiquez où votre jugement aurait différé. Un désaccord motivé vaut mieux qu'un accord.
+Les critères d'évaluation (rubric anchors) sont provisoires. L'observation la plus utile que vous puissiez adresser est la 
+suivante : évaluez vous-même l'un des cinq exemples au regard du tableau des critères, et indiquez où votre jugement aurait différé. 
+Un désaccord motivé vaut mieux qu'un accord.
 
 ---
 
