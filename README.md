@@ -202,13 +202,20 @@ because two entries honestly declare an unknown.
 **The rubric anchors are provisional.** The Low / Moderate / High definitions in
 [`docs/example-suite.md`](docs/example-suite.md) are judgement calls written as a
 table, and they have not been tested for consistency between independent
-scorers — which cannot be done alone. They may change before v1.0 — see *What would be most useful from you*, above.
+scorers — which cannot be done alone. They may change before v1.0 — see *What would 
+be most useful from you*, above.
 
 Adding examples? Vary the **failure mode**, not the labels. Two scenarios with
 different names but the same underlying shape exercise the same branch of the
 rubric twice. The five here fail on five different dimensions: conflict,
 retrofit, inertia, authorised absence, unverifiability. Published examples are
 fictional and stay that way.
+
+**Eleven limitations are recorded.** Things the schema cannot express, each found
+by putting the model against an instrument rather than by inspecting the schema.
+They are listed in [`docs/obligation-register.md`](docs/obligation-register.md)
+under *What the schema does not express*. Three are additive fields in draft for
+v0.2.0 (Aug2026); the remainder change what an entry is, and are deferred to v0.3.0.
 
 ## Licence
 
