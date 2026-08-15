@@ -50,6 +50,12 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   mandatory guardrails consulted on. Recorded the standard's published claim that
   compliance with it produces compliance with international laws, which
   conformity with a management system standard cannot deliver.
+- Added an eleventh limitation: nothing records what it takes to remove an
+  obligation. The instruments in the register are removable by legislation, by
+  withdrawal of a ministerial direction, by decision of the body that made them,
+  or by the signature of the executive at any time — differences the schema
+  cannot express. Also corrected the scope note: three of the eleven are additive
+  fields planned for v0.2.0, the remainder deferred (to v0.3.0 - next Model2).
 
 ### Changed
 - Article 50 entries cite Regulation (EU) 2024/1689 as amended by Regulation
