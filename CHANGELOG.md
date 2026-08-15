@@ -183,6 +183,9 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
   by adoption under Article 49.
 - Cited the German C5 catalogue by version: BSI, Cloud Computing Compliance
   Criteria Catalogue (C5:2026), version 1.0.1.
+- Reordered the README so the three concrete ways in come first, with the
+  reasoning that follows available to a reader who wants it rather than in their
+  path.
   
   ### Notes
 - The rubric anchors are published as provisional and may change before v1.0.
