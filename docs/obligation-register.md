@@ -681,14 +681,15 @@ are looking at.
 
 ## What the schema does not express
 
-Ten limitations, each found by putting the model against an instrument becomes 
-Nine limitations. They are listed together because the pattern is worth seeing: 
-most concern what surrounds an obligation — who enforces it, how it
+Eleven limitations, each found by putting the model against an instrument rather 
+than by inspecting the schema. They are listed together because the pattern is 
+worth seeing: most concern what surrounds an obligation — who enforces it, how it
 has been read, what a control actually covers, what breach costs — rather than
 the obligation itself. That may be where the model's boundary genuinely lies.
 
-None invalidates an existing entry. All are additive, and all are planned for
-v0.2.0.
+None invalidates an existing entry. Three are additive fields — `mode`,
+`interpreted_by` and `supervised_by` — and are planned for v0.2.0. The remainder
+change what an entry is rather than what it holds, and are deferred to v0.3.0.
 
 **1. When a control acts.** `type` records how a control is implemented —
 technical, procedural, contractual, design. It does not record whether the
@@ -753,6 +754,18 @@ obligations on the Commission, the Member States and the Board to support and
 facilitate compliance with it. These are distinct obligations with distinct
 obligors, and the register can hold them as separate entries; what it cannot hold
 is that one exists for the sake of another.
+
+**11. What it takes to remove an obligation.** `contingent_on` records what must
+happen before an entry's dates bind. Nothing records what could happen to unbind
+them. The instruments in this register are removable by very different means:
+Regulation (EU) 2024/1689 by legislation; the Australian Protective Security
+Policy Framework by withdrawal or amendment of a ministerial direction; the
+Conseil d'État charter by decision of the body that made it; a United States 
+executive order by the signature of the executive, at any time and without any 
+external step. 
+An obligation in force is not one governance object. Two obligations may be 
+equally binding today and differ entirely in what it would take to end them, and 
+an organisation planning against either would want to know which it holds.
 
 ## A caution
 
