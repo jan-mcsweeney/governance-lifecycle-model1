@@ -16,28 +16,6 @@ Les critères d'évaluation (rubric anchors) sont provisoires. L'observation la 
 
 ---
 
-## Why it exists
-
-A register of asset inspections. Every record carries the correct inspection
-date. Nothing is missing, nothing contradicts, and an auditor checking for
-completeness would leave satisfied.
-
-The metadata shows that all of them were created in a single batch, eighteen
-months after the inspections, by one author.
-
-Is anything wrong? And if so, which of the things you would normally measure has
-actually failed? Not completeness — the records are complete. Not the timeline —
-the dates are correct and the sequence is clear. That is the difficulty: this
-issue fails on an axis most assessment tools do not have, and it scores *worse*
-the clearer its chronology becomes.
-
-This repository is one answer. A governance lifecycle with an explicit
-pre-execution checkpoint, an engine that scores observations across five
-independent dimensions and derives a priority tier from them, and a register that
-decomposes legal duties into the lifecycle stages that must carry them. Worked
-examples and conformance checkers are included, so the mechanism can be run
-rather than only read.
-
 ## Start here
 
 Three ways in, depending on what you came for.
@@ -60,6 +38,28 @@ the EU AI Act, decomposed into what must be true before an action proceeds, what
 discharges the duty, what evidences it, and who confirms it. Note its history:
 the entry was written while the amending regulation was still a political
 agreement, and had to be corrected when it became law.
+
+## Why it exists
+
+A register of asset inspections. Every record carries the correct inspection
+date. Nothing is missing, nothing contradicts, and an auditor checking for
+completeness would leave satisfied.
+
+The metadata shows that all of them were created in a single batch, eighteen
+months after the inspections, by one author.
+
+Is anything wrong? And if so, which of the things you would normally measure has
+actually failed? Not completeness — the records are complete. Not the timeline —
+the dates are correct and the sequence is clear. That is the difficulty: this
+issue fails on an axis most assessment tools do not have, and it scores *worse*
+the clearer its chronology becomes.
+
+This repository is one answer. A governance lifecycle with an explicit
+pre-execution checkpoint, an engine that scores observations across five
+independent dimensions and derives a priority tier from them, and a register that
+decomposes legal duties into the lifecycle stages that must carry them. Worked
+examples and conformance checkers are included, so the mechanism can be run
+rather than only read.
 
 ## What would be most useful from you
 
