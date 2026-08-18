@@ -59,6 +59,10 @@ Format follows Keep a Changelog; versioning follows Semantic Versioning.
 - Added a pointer in the README to the eleven limitations, three of the eleven are 
   additive fields in draft for v0.2.0 and named v0.3.0 as where the eight deferred 
   limitations go.
+- Added `docs/architecture.md`: the architecture's statement of intent, in
+  French, with an English abstract. It sets out why the architecture exists, whom
+  it serves, five design principles beginning with *audience precedes artefact*,
+  and the four layers of which the thirteen-stage lifecycle is the third.
 
 ### Changed
 - Article 50 entries cite Regulation (EU) 2024/1689 as amended by Regulation
