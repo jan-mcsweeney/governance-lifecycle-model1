@@ -78,9 +78,9 @@ Open an issue on this repository, or write to the address on the profile.
 
 ---
 
-## The three layers
+## The three components
 
-| Layer | What it holds | Document |
+| Component | What it holds | Document |
 |---|---|---|
 | **Lifecycle** | Thirteen stages, an admissibility gate, standards mapping | [`docs/lifecycle.md`](docs/lifecycle.md) |
 | **Obligation register** | Legal duties, decomposed into the stages that carry them | [`docs/obligation-register.md`](docs/obligation-register.md) |
@@ -94,7 +94,7 @@ schema/      Input, output and obligation contracts (JSON Schema)
 examples/    Five worked scenarios, input and expected output
 register/    Five obligation entries
 scripts/     Conformance checkers for both
-docs/        The three layers explained
+docs/        The architecture and its components explained.
 ```
 
 ## The scoring engine
